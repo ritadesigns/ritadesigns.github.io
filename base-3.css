@@ -5,6 +5,11 @@ body, html { height: 100% }
 
 body { max-width: 1600px; margin: 0 auto }
 
+body { 
+
+    color: #4b4a45;
+    background-color: #78d8da
+}
 
 
 
