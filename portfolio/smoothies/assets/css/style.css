@@ -240,6 +240,7 @@ img { width: 100%; height: auto }
 
 .container-flexbox .item-2 p { 
 	font-family: 'Neucha', sans-serif;
+	color: #d1274b;
 	font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (1600 - 320))); 
 	line-height: 1.6;
 	margin-bottom: 14px;
@@ -249,7 +250,7 @@ img { width: 100%; height: auto }
 /* For blueberry only, change colour of heading and paragraph to white */
 .container-flexbox.bg-blueberry h2,
 .container-flexbox.bg-blueberry p { 
-	color: #fff;
+	color: #d1274b;
 }
 
 /* For mobiles only, center align headings, paragraphs and images */
