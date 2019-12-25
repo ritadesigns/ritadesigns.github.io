@@ -125,7 +125,6 @@ img { width: 100%; height: auto }
 
 .container-hero h1 {
 	font-size: calc(58px + (132 - 58) * ((100vw - 320px)/(1600 - 320)));
-	color: #fff;
 	line-height: 1.1
 }
 
