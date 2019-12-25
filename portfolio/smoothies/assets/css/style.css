@@ -221,7 +221,7 @@ img { width: 100%; height: auto }
 /* Content inside .item-1 columns */
 .container-flexbox .item-1 p { 
 	font-family: 'Neucha', sans-serif;
-	color: #d1274b;
+	color: #fff;
 	line-height: 1.6;
 	text-align: center;
 	font-size: calc(26px + (54 - 26) * ((100vw - 320px) / (1600 - 320))); 
