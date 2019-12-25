@@ -171,10 +171,10 @@ img { width: 100%; height: auto }
 }
 
 /* Background colors */
-.container-flexbox.bg-watermelon { background-color: #FBBDD9 }
+.container-flexbox.bg-watermelon { background-color: #F7bb6 }
 .container-flexbox.bg-apple      { background-color: #93EDC3 }
-.container-flexbox.bg-blueberry  { background-color: #8C6BBE }
-.container-flexbox.bg-lemon      { background-color: #F1F1BC }
+.container-flexbox.bg-blueberry  { background-color: #A287CA }
+.container-flexbox.bg-lemon      { background-color: #E7E78C }
 
 
 
