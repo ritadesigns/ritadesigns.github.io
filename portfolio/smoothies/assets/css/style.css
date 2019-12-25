@@ -1,173 +1,177 @@
-/* ==== BROWSER RESETS  ==== */
-* { box-sizing: border-box; padding: 0; margin: 0 }
-body, html { height: 100% }
-body { max-width: 1600px; font-family: sans-serif }
-img { width: 100%; height: auto }
-* { margin:0; padding:0; box-sizing: border-box }
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>CSS Flexbox Columns Showcase | IBAT Portoflio Project | Rita Brereton</title>
+
+	<meta name="description" content="Showcase of CSS Flexbox columns.">
+
+	<meta name="author" content="Rita Brereton">
+
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	
+	<link href="https://fonts.googleapis.com/css?family=Neucha:400,400i,700,700i&display=swap" rel="stylesheet"> 
+
+		<!-- Link to icons for Font Awesome 5 -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+	</head>
+   
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148715739-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-148715739-1');
+</script>
+
+	<style>
+		.hero-block-5 { 
+			background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('assets/img/smoothie-hero-image.jpg');
+		}
+	</style>
 
 
+</head>
 
-/* Desktop - show this menu  */
-@media all and (min-width:768px){
-.container-menu-desktop { 
-	display: flex;
-	justify-content: space-between;
-	padding: 1% 5% 1% 5%;
-	background-color: transparent;
-	margin-bottom: -64px;
-}
-
-.container-menu-desktop.item-logo { 
+<body>
 
 
-}
+/* =========== STYLES FOR HERO CONTAINER AT TOP OF WEB PAGE ========== */
 
-.container-menu-desktop .item-menu-options ul li { 
-	display: inline-block;
-	margin-left: 30px;
-}
-
-.container-menu-desktop .item-menu-options ul li a:link,
-.container-menu-desktop .item-menu-options ul li a:visited{
-	text-decoration: none;
-	color: white
-}
-
-
-.container-menu-desktop .item-menu-options ul li a:hover,
-.container-menu-desktop .item-menu-options ul li a:active { 
-	text-decoration: underline;
-	color: white
-}
- 
-	text-decoration: none;
-    color: inherit;
-    border-style: solid;
-    border-width: 2px;
-    padding: 6px 24px;
-    display: inline-block;
-    font-weight: bold;
-    font-family: sans-serif;
-    letter-spacing: 1px;
-	line-height: 1;
-	border-radius: 25px;
-	color: white
- }
-
-/* mobiles- ihide this menu  */
-@media all and (max-width:767px) {
-	.container-menu-desktop {
-		display: none;
-	}
-}
-
-
-/*== Light desktop menu == */
-.menu-desktop-light { background-color: #e3e3e3 }
-.menu-desktop-light .item-menu ul li a { color: #c60021; font-weight:bold }
-
-.menu-desktop-light .item-menu ul li a:hover,
-.menu-desktop-light .item-menu ul li a:active {
-	color: #c60021;
-}
-
-.menu-desktop-light .item-menu ul li a.btn-solid { 
-	background-color: #c60021; border-color: #c60021; color: #fff; font-weight:bold
-}
-
-.menu-desktop-light .item-menu ul li a.btn-solid:hover, 
-.menu-desktop-light .item-menu ul li a.btn-solid:active { 
-	background-color: #1e266d; border-color: #1e266d;  color: #fff;
-}
-
-/*== Transparent desktop menu == */
-.menu-desktop-transparent { background-color: transparent }
-
-.menu-desktop-transparent .item-menu ul li a { color: #fff;font-weight:bold }
-
-.menu-desktop-transparent .item-menu ul li a.btn-solid { 
-	background-color: #c60021; border-color: #c60021; color: #fff;
-}
-
-.menu-desktop-transparent .item-menu ul li a.btn-solid:hover, 
-.menu-desktop-transparent .item-menu ul li a.btn-solid:active { 
-	background-color: #fff; color: #c60021; border-color: #c60021;
-}
-
-/*== Sticky desktop menu == */
-.menu-desktop-sticky { position: fixed; width: 100%; }
-
-}
-
-/* === HERO BLOCK 5 === */
-
-.hero-block-5 {
+.container-hero {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('../img/smoothie-hero-image.jpg');
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
+.container-hero h1, 
+.container-hero h2 {
+	font-family: 'Neucha', sans-serif;
+	color: #fff;
+	text-shadow: 2px 2px #222;
+	text-align: center;	
+}
+
+.container-hero h1 {
+	font-size: calc(58px + (132 - 58) * ((100vw - 320px)/(1600 - 320)));
+	line-height: 1.1
+}
+
+.container-hero h2 {
+	font-size: calc(26px + (64 - 26) * ((100vw - 320px)/(1600 - 320)));
+	line-height: 1.3	
+}
+
+/* Desktops - container height and h1 bottom margin */
+@media all and (min-width:768px) { 
+	.container-hero { height: 520px }
+	.container-hero h1 { margin-bottom: 1% }
+}
+
+/* Mobiles - container height, text width and h1 bottom margin */
+@media all and (max-width:767px) { 
+	.container-hero { height: 360px }
+	.container-hero h1 { 
+		margin-bottom: 5%
+	}
+	.container-hero h2 { 
+		width: 90%;
+		margin: 0 auto 5% auto
+	}
+}
 
 
-/* =================================== OUTER FLEXBOX CONTAINERS ============================= */
+/* ================================== PARENT FLEXBOX CONTAINER ============================= */
+
 .container-flexbox { 
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
-
-/* Desktop - inside padding  */
+/* Desktop only - inside padding  */
 @media all and (min-width:768px) {
-	.container-flexbox { 
-	padding: 3% 10% 3% 10%;
-	}
-
+	.container-flexbox { padding: 4% 13% 3% 13% }
 }
 
-/* Mobiles - inside padding */
+/* Mobiles only - inside padding */
 @media all and (max-width:767px) {
-	.container-flexbox { 
-	padding: 3% 10% 3% 10%;
-	}
+	.container-flexbox { padding: 10% 8% 8% 8% }
 }
 
-.container-flexbox.bg-watermelon {background-color: #f7c12c;}
-.container-flexbox.bg-apple {background-color: #8ad2fc;}
-.container-flexbox.bg-blueberry {background-color: #f79aae;}
-.container-flexbox.bg-lemon {background-color: #c2a6ec;}
+/* Background colors */
+.container-flexbox.bg-watermelon { background-color: #FBBDD9 }
+.container-flexbox.bg-apple      { background-color: #B7F3D9 }
+.container-flexbox.bg-blueberry  { background-color: #8C6BBE }
+.container-flexbox.bg-lemon      { background-color: #F1F1BC }
 
 
-/* ================ INNER FLEXBOX COLUMN CONTAINERS: 1 COLUMN EVERY SCREEN ============== */
 
+/* ====================== FLEXBOX CHILD COLUMN: 1 COLUMN EVERY SCREEN ( .item-1 ) =================== */
+
+/* All screen sizes, always 100% wide */
 .container-flexbox .item-1 { 
 	width: 100%;
-	padding: 1% 6% 0 6%;
 }
 
-
-
-/* ======================= INNER FLEXBOX COLUMN CONTAINERS: 2 COLUMNS DESKTOP, 1 COLUMN MOBILE  ========================= */
-
-.container-flexbox .item-2 { width: 46% }
-
-/* Desktop - outside spacing at bottom of within inner flexbox containers */
-@media all and (min-width:768px) {
-	.container-flexbox .item { margin-bottom: 3% }
-}
-
-/* Mobiles - bottom margin */
+/* For mobile screens only, extra padding at bottom of column */
 @media all and (max-width:767px) {
-	.container-flexbox .item { margin-bottom: 5% }
+	.container-flexbox .item-1 { 
+		padding-bottom: 2%;
+	}
 }
 
-/* === HEADINGS AND PARAGRAPH ELEMEHTS WITHIN FLEXBOX CONTAINERS === */
+/* ================ FLEXBOX CHILD COLUMN: 2 COLUMNS DESKTOP, 1 COLUMN MOBILE ( .item-2 ) ============== */
 
+/* Desktop */
+@media all and (min-width:768px) {
+	.container-flexbox .item-2 { 
+		width: 47%
+	}
+}
+
+/* Mobiles */
+@media all and (max-width:767px) { 
+	/* Two columns ( .item-2 ) change to one wide column */
+	.container-flexbox .item-2 { 
+		width: 100%
+	}
+
+	/* Re-order columns inside first and third outer flexbox parent containers */
+	.container-flexbox.bg-watermelon .item-2:nth-child(1) { order: 2 }
+	.container-flexbox.bg-watermelon .item-2:nth-child(2) { order: 1 }
+	.container-flexbox.bg-blueberry  .item-2:nth-child(1) { order: 2 }
+	.container-flexbox.bg-blueberry  .item-2:nth-child(2) { order: 1 }
+}
+
+
+
+/* ================ HEADINGS, PARAGRAPHS AND IMAGES INSIDE COLUMNS ====================== */
+
+/* Content inside .item-1 columns */
+.container-flexbox .item-1 p { 
+	font-family: 'Neucha', sans-serif;
+	color: #733fc0;
+	line-height: 1.6;
+	text-align: center;
+	font-size: calc(26px + (54 - 26) * ((100vw - 320px) / (1600 - 320))); 
+}
+
+
+/* Content inside .item-2 columns */
 .container-flexbox .item-2 h2 { 
 	font-family: 'Neucha', sans-serif;
-	font-weight: 800; 
 	color: #d1274b;
 	line-height: 1.2;
 	margin-bottom: 4px;
@@ -177,154 +181,117 @@ img { width: 100%; height: auto }
 
 .container-flexbox .item-2 p { 
 	font-family: 'Neucha', sans-serif;
-	font-size: calc(15px + (22 - 15) * ((100vw - 320px) / (1600 - 320))); 
+	font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (1600 - 320))); 
 	line-height: 1.6;
 	margin-bottom: 14px;
 	letter-spacing: 1px
 }
 
-.container-flexbox .item-1 p { 
-	font-family: 'Neucha', sans-serif;
-	font-weight: bold; 
-	color: #733fc0;
-	line-height: 1.6;
-	text-align: center;
-	font-size: calc(26px + (54 - 26) * ((100vw - 320px) / (1600 - 320))); 
-}
-
-
-/* ============================= FLEXBOX CONTAINERS AND MOBILE SCREENS  =========================== */
-
-@media all and (max-width:767px) { 
-	/* Two columns to one column */
-	.container-flexbox { flex-direction: column }
-	.container-flexbox .item-2 { width: 100% }
-	.container-flexbox.bg-watermelon .item-2:nth-child(1) { order: 2 }
-	.container-flexbox.bg-watermelon .item-2:nth-child(2) { order: 1 }
-	.container-flexbox.bg-blueberry .item-2:nth-child(1) { order: 2 }
-	.container-flexbox.bg-blueberry .item-2:nth-child(2) { order: 1 }
-}
-
-
-.hero-block-5 h1, .hero-block-5 h2 {
-	text-align: center;
+/* For blueberry only, change colour of heading and paragraph to white */
+.container-flexbox.bg-blueberry h2,
+.container-flexbox.bg-blueberry p { 
 	color: #fff;
-	font-weight: bold;
-	font-family: 'Neucha', sans-serif;
-	text-shadow: 2px 2px #222;
 }
 
-.hero-block-5 h1 {
-	font-size: calc(64px + (112 - 64) * ((100vw - 320px)/(1600 - 320)));
-}
-
-.hero-block-5 h2 {
-	font-size: calc(24px + (64 - 24) * ((100vw - 320px)/(1600 - 320)));
-	line-height: 1.5;
-}
-
-/* Desktop - block height, text width and h1 bottom margin */
-@media all and (min-width:768px) { 
-	.hero-block-5 { height: 520px }
-	.hero-block-5 h1, .hero-block-5 h2 { 
-		width: 60%; 
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.hero-block-5 h1 { margin-bottom: 1% }
-}
-
-/* Mobiles - block height, text width and h1 bottom margin */
+/* For mobiles only, center align headings, paragraphs and images */
 @media all and (max-width:767px) { 
-	.hero-block-5 { height: 360px }
-	.hero-block-5 h1, .hero-block-5 h2  { 
-		margin-top: 0; 
-		width: 70%; 
-		margin-left: auto;
-		margin-right: auto;
+	.container-flexbox .item-2 h2,
+	.container-flexbox .item-2 p { 
+		text-align: center;
 	}
-	.hero-block-5 h1 { margin-bottom: 5% }
+	.container-flexbox .item-2 img { 
+		margin: 0 auto 14px auto;
+	}
 }
 
-/* ============ FOOTER STYLES ================= */
 
-/* Outer parent container */
-.container-footer { 
-	display: flex;
-	justify-content: space-between;
-   flex-wrap: wrap;
-   background:pink
-}
 
-/* Desktop - inside padding  */
-@media all and (min-width:768px) {
-	.container-footer { padding: 3% 8% 5% 8% }
-}
 
-/* Mobiles - inside padding */
-@media all and (max-width:767px) {
-	.container-footer { padding: 12% 8% 1% 8% }
-}
+<!-- Begin JavaScript code showing/hiding slide-out menu -->
+<script>
+		document.querySelector('.item-icon').addEventListener('click', toggleMobileMenu)
+	
+		function toggleMobileMenu() {
+			//toggle hamburger icon
+			let elemIcon = document.querySelector('.item-icon');
+			elemIcon.classList.toggle("change");
+		
+			//if mobile menu currently closed, open menu.
+			if (elemIcon.classList.contains('change')) {
+				document.querySelector(".container-menu-options-mobile").style.right = "0";
+			}
+			//if mobile menu currently open, close menu.
+			else {
+				document.querySelector(".container-menu-options-mobile").style.right = "-320px";
+			}
+		}
+	</script>
 
-/* Inner columns */
 
-/* Desktops - 3 columns */
-@media all and (min-width:768px) { 
-   .container-footer .item-3:nth-child(1) { width: 20% }
-   .container-footer .item-3:nth-child(2) { width: 50% }
-   .container-footer .item-3:nth-child(3) { width: 20% }
-}
+<!-- Begin footer -->
+<div class="container-footer">
 
-/* Mobiles - 1 column */
-@media all and (max-width:767px) { 
-	.container-footer .item-3 { 
-      width: 100%;
-      margin-bottom: 10%
-   }
-   .container-footer .item-3:nth-child(2) { order: 1 }
-   .container-footer .item-3:nth-child(1) { order: 2 }
-   .container-footer .item-3:nth-child(3) { order: 3 } 
-}
+	<div class="item-3">
 
-/* Styles for background, text and links */
+		<h4>SITE MAP</h4>
+		<p><i class="fas fa-home fa-fw"></i><a href="index.html">Home</a></p>
+		<p><i class="far fa-file-alt fa-fw"></i><a href="index.html">Portfolio</a></p>
+		<p><i class="fas fa-lock fa-fw"></i><a href="privacy.html">Privacy</a></p>
+	
+	</div>
 
-.container-footer .item-3 h4,
-.container-footer .item-3 p,
-.container-footer .item-3 p i,
-.container-footer .item-3 p a {
-   color: #fff
-}
+	<div class="item-3">
+		<h4>ABOUT ME</h4>
+		<p>Hi, I'm Rita Brereton. I'm a graphc and web designer.</p>
+		
+		<p>I created this sample web page to showcase some of my digital creation skills.</p>
+	</div>
 
-.container-footer .item-3 h4 {
-   font-weight: bold;
-   margin-bottom: 12px;
-   font-size: calc(18px + (20 - 18) * ((100vw - 320px)/(1600 - 320)));
-}
+	<div class="item-3">
+		<h4>CONTACT</h4>
+		<p><i class="far fa-envelope fa-fw"></i><a href="mailto:breretonrita2@gmail.com">Email</a></p>
+		<p><i class="fab fa-github-square fa-fw"></i><a href="https://ritadesigns.github.io/" target="_blank">GitHub</a></p>
+		<p><i class="fab fa-linkedin fa-fw"></i><a href="https://www.linkedin.com/in/rita-brereton-71368083/" target="_blank">Linkedin</a></p>
+	</div>
+</div>
 
-.container-footer .item-3 p {
-   font-weight: normal;
-   margin-bottom: 12px;
-   font-size: calc(15px + (18 - 15) * ((100vw - 320px)/(1600 - 320)));
-}
+<!-- End footer -->
 
-.container-footer .item-3 i { 
-   padding-right: 26px;
-} 
-
-.container-footer .item-3 p a {
-   text-decoration: none;
-   border-bottom-style: solid;
-   border-bottom-width: 2px;
-   padding-bottom:2px;
-}
-
-.container-footer .item-3 p a:link, 
-.container-footer .item-3 p a:visited  {
-   border-bottom-color: transparent;
-}
-
-.container-footer .item-3 p a:hover, 
-.container-footer .item-3 p a:active  {
-   border-bottom-color: #fff
-
-}
+	<!-- End JavaScript code showing/hiding slide-out menu -->
+	
+	<!-- Begin JavaScript code for menu styles on scrolling -->
+	<script>
+	
+		window.onscroll = function() {
+			scrollDesktop();
+			scrollMobile();
+		}
+	
+		function scrollDesktop() {
+			let headerDesktop = document.querySelector('.container-menu-desktop');
+			let stickyDesktop = headerDesktop.offsetTop;
+	
+			if (window.pageYOffset > stickyDesktop) {
+				headerDesktop.classList.add("menu-desktop-light");
+				headerDesktop.classList.remove("menu-desktop-transparent");
+			} else {
+				headerDesktop.classList.add("menu-desktop-transparent");
+				headerDesktop.classList.remove("menu-desktop-light");
+			}
+		}
+	
+		function scrollMobile() {
+			let headerMobile = document.querySelector('.container-menu-bar-mobile');
+			let stickyMobile = headerMobile.offsetTop;
+			if (window.pageYOffset > stickyMobile) {
+				headerMobile.classList.add("menu-mobile-light");
+				headerMobile.classList.remove("menu-mobile-transparent");
+			} else {
+				headerMobile.classList.add("menu-mobile-transparent");
+				headerMobile.classList.remove("menu-mobile-light");
+			}
+		}
+	</script>
+	<!-- End JavaScript code for menu styles on scrolling -->
+</body>
+</html>
