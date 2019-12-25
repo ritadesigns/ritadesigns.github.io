@@ -39,11 +39,7 @@ img { width: 100%; height: auto }
 	text-decoration: underline;
 	color: white
 }
-
-.container-menu-desktop .item-menu-options ul li a.btn:link,
-.container-menu-desktop .item-menu-options ul li a.btn:visited,
-.container-menu-desktop .item-menu-options ul li a.btn:hover,
-.container-menu-desktop .item-menu-options ul li a.btn:active { 
+ 
 	text-decoration: none;
     color: inherit;
     border-style: solid;
