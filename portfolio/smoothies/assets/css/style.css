@@ -271,8 +271,8 @@ img { width: 100%; height: auto }
 .container-footer { 
 	display: flex;
 	justify-content: space-between;
-   flex-wrap: wrap;
-   background: #pink
+	flex-wrap: wrap;
+	background-color: #pink
 }
 
 /* Desktop - inside padding  */
