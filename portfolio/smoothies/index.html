@@ -16,7 +16,12 @@
 	
 	<link href="https://fonts.googleapis.com/css?family=Neucha:400,400i,700,700i&display=swap" rel="stylesheet"> 
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
+		<!-- Link to icons for Font Awesome 5 -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+	</head>
+   
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148715739-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -25,7 +30,6 @@
 
   gtag('config', 'UA-148715739-1');
 </script>
-</head>
 
 	<style>
 		.hero-block-5 { 
@@ -34,10 +38,27 @@
 	</style>
 
 
-
 </head>
 
 <body>
+
+
+	<div class="container-menu-desktop menu-desktop-transparent menu-desktop-sticky">
+
+		<div class= "item-logo">
+		<p><a href= "#">smooth smoothies</a></p>
+		</div>
+
+		<div class="item-menu-options">
+			<ul>
+				<li><a href="">watermelon</a></li>
+				<li><a href="">Apple</a></li>
+				<li><a href="">Blueberry</a></li>
+				<li><a href="">lemon</a></li>
+				<li><a href="" class="btn">store</a></li>
+			</ul>
+		</div>
+	</div>
 
 	<div class="hero-block-5">
 		<h1>Smooth Smoothies</h1>
@@ -109,6 +130,98 @@
 	</div>
 
 </div>
+
+
+</BODY>
+<!-- Begin JavaScript code showing/hiding slide-out menu -->
+<script>
+		document.querySelector('.item-icon').addEventListener('click', toggleMobileMenu)
+	
+		function toggleMobileMenu() {
+			//toggle hamburger icon
+			let elemIcon = document.querySelector('.item-icon');
+			elemIcon.classList.toggle("change");
+		
+			//if mobile menu currently closed, open menu.
+			if (elemIcon.classList.contains('change')) {
+				document.querySelector(".container-menu-options-mobile").style.right = "0";
+			}
+			//if mobile menu currently open, close menu.
+			else {
+				document.querySelector(".container-menu-options-mobile").style.right = "-320px";
+			}
+		}
+	</script>
+
+
+<!-- Begin footer -->
+<div class="container-footer">
+
+	<div class="item-3">
+
+		<h4>SITE MAP</h4>
+		<p><i class="fas fa-home fa-fw"></i><a href="index.html">Home</a></p>
+		<p><i class="far fa-file-alt fa-fw"></i><a href="index.html">Portfolio</a></p>
+		<p><i class="fas fa-lock fa-fw"></i><a href="privacy.html">Privacy</a></p>
+	
+	</div>
+
+	<div class="item-3">
+		<h4>ABOUT ME</h4>
+		<p>Hi, I'm Rita Brereton. I'm a graphc and web designer.</p>
+		
+		<p>I created this sample web page to showcase some of my digital creation skills.</p>
+	</div>
+
+	<div class="item-3">
+		<h4>CONTACT</h4>
+		<p><i class="far fa-envelope fa-fw"></i><a href="mailto:breretonrita2@gmail.com">Email</a></p>
+		<p><i class="fab fa-github-square fa-fw"></i><a href="https://ritadesigns.github.io/" target="_blank">GitHub</a></p>
+		<p><i class="fab fa-linkedin fa-fw"></i><a href="https://www.linkedin.com/in/rita-brereton-71368083/" target="_blank">Linkedin</a></p>
+	</div>
+</div>
+
+<!-- End footer -->
+
+</body>
+</html>
+	<!-- End JavaScript code showing/hiding slide-out menu -->
+	
+	<!-- Begin JavaScript code for menu styles on scrolling -->
+	<script>
+	
+		window.onscroll = function() {
+			scrollDesktop();
+			scrollMobile();
+		}
+	
+		function scrollDesktop() {
+			let headerDesktop = document.querySelector('.container-menu-desktop');
+			let stickyDesktop = headerDesktop.offsetTop;
+	
+			if (window.pageYOffset > stickyDesktop) {
+				headerDesktop.classList.add("menu-desktop-light");
+				headerDesktop.classList.remove("menu-desktop-transparent");
+			} else {
+				headerDesktop.classList.add("menu-desktop-transparent");
+				headerDesktop.classList.remove("menu-desktop-light");
+			}
+		}
+	
+		function scrollMobile() {
+			let headerMobile = document.querySelector('.container-menu-bar-mobile');
+			let stickyMobile = headerMobile.offsetTop;
+			if (window.pageYOffset > stickyMobile) {
+				headerMobile.classList.add("menu-mobile-light");
+				headerMobile.classList.remove("menu-mobile-transparent");
+			} else {
+				headerMobile.classList.add("menu-mobile-transparent");
+				headerMobile.classList.remove("menu-mobile-light");
+			}
+		}
+	</script>
+	<!-- End JavaScript code for menu styles on scrolling -->
+</HTML>
 
 	<!-- JavaScript for Cookie Consent Popup Message -->
 	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
