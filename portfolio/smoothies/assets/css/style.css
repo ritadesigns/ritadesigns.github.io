@@ -118,7 +118,6 @@ img { width: 100%; height: auto }
 .container-hero h1, 
 .container-hero h2 {
 	font-family: 'Neucha', sans-serif;
-	color: #fff;
 	text-shadow: 2px 2px #222;
 	text-align: center;	
 }
