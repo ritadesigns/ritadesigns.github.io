@@ -14,6 +14,30 @@ h1 { font-size: calc(36px + (72 - 36) * ((100vw - 320px)/ (1600 - 320))); }
 
 */
 
+/* === HERO BLOCK === */
+
+.hero-block {
+	width: 100%;
+	background-color: lightblue
+}
+
+/* Desktop */
+@media all and (min-width:768px) { 
+	.hero-block { 
+		height: 480px;
+		margin-bottom: 80px
+	}
+}
+
+/* Mobile */
+@media all and (max-width:767px) { 
+	.hero-block { 
+		height: 380px; 
+		margin-bottom: 40px
+	}
+}
+
+
 /* === HERO BLOCK 1 === */
 .hero-block-1 {
     display: flex;
@@ -374,23 +398,3 @@ h1 { font-size: calc(36px + (72 - 36) * ((100vw - 320px)/ (1600 - 320))); }
 }
 
 
-	<!-- JavaScript for Cookie Consent Popup Message -->
-	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-	<script>
-	window.cookieconsent.initialise({
-	  	"palette": {
-			"popup": {
-				"background": "#000"
-			},
-			"button": {
-				"background": "#f1d600"
-			}
-		},
-	  	"content": {
-			"href": "https://ibat-web-dev.github.io/privacy.html"
-		}
-	});
-	</script>
-
-</body>
-</html>
