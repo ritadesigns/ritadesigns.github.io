@@ -30,14 +30,14 @@ img { width: 100%; height: auto }
 .container-menu-desktop .item-menu-options ul li a:link,
 .container-menu-desktop .item-menu-options ul li a:visited{
 	text-decoration: none;
-	color: white
+	color: #fff
 }
 
 
 .container-menu-desktop .item-menu-options ul li a:hover,
 .container-menu-desktop .item-menu-options ul li a:active { 
 	text-decoration: underline;
-	color: white
+	color: #fff
 }
 
 .container-menu-desktop .item-menu-options ul li a.btn:link,
@@ -55,7 +55,7 @@ img { width: 100%; height: auto }
     letter-spacing: 1px;
 	line-height: 1;
 	border-radius: 25px;
-	color: white
+	color: #fff
  }
 
 /* mobiles- ihide this menu  */
@@ -221,7 +221,7 @@ img { width: 100%; height: auto }
 /* Content inside .item-1 columns */
 .container-flexbox .item-1 p { 
 	font-family: 'Neucha', sans-serif;
-	color: #fff;
+	color: #4b4a45;
 	line-height: 1.6;
 	text-align: center;
 	font-size: calc(26px + (54 - 26) * ((100vw - 320px) / (1600 - 320))); 
@@ -231,7 +231,7 @@ img { width: 100%; height: auto }
 /* Content inside .item-2 columns */
 .container-flexbox .item-2 h2 { 
 	font-family: 'Neucha', sans-serif;
-	color: #d1274b;
+	color: #4b4a45;
 	line-height: 1.2;
 	margin-bottom: 4px;
 	letter-spacing: 2px;
@@ -240,7 +240,6 @@ img { width: 100%; height: auto }
 
 .container-flexbox .item-2 p { 
 	font-family: 'Neucha', sans-serif;
-	color: #d1274b;
 	font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (1600 - 320))); 
 	line-height: 1.6;
 	margin-bottom: 14px;
@@ -250,7 +249,7 @@ img { width: 100%; height: auto }
 /* For blueberry only, change colour of heading and paragraph to white */
 .container-flexbox.bg-blueberry h2,
 .container-flexbox.bg-blueberry p { 
-	color: #d1274b;
+	color: #4b4a45;
 }
 
 /* For mobiles only, center align headings, paragraphs and images */
