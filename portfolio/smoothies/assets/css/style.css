@@ -150,22 +150,26 @@ img { width: 100%; height: auto }
 }
 
 
-/* ================================== PARENT FLEXBOX CONTAINER ============================= */
-
+/* =================================== OUTER FLEXBOX CONTAINERS ============================= */
 .container-flexbox { 
 	display: flex;
 	justify-content: space-between;
-	flex-wrap: wrap;
 }
 
-/* Desktop only - inside padding  */
+
+/* Desktop - inside padding  */
 @media all and (min-width:768px) {
-	.container-flexbox { padding: 4% 13% 3% 13% }
+	.container-flexbox { 
+	padding: 3% 10% 3% 10%;
+	}
+
 }
 
-/* Mobiles only - inside padding */
+/* Mobiles - inside padding */
 @media all and (max-width:767px) {
-	.container-flexbox { padding: 10% 8% 8% 8% }
+	.container-flexbox { 
+	padding: 3% 10% 3% 10%;
+	}
 }
 
 /* Background colors */
