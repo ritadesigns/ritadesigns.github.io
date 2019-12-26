@@ -86,7 +86,7 @@ img { width: 100%; height: auto }
 }
 
 /*== Transparent desktop menu == */
-.menu-desktop-transparent { background-color: transparent }
+.menu-desktop-transparent { background-color: #pink }
 
 .menu-desktop-transparent .item-menu ul li a { color: #fff;font-weight:bold }
 
