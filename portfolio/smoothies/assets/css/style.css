@@ -118,8 +118,7 @@ img { width: 100%; height: auto }
 
 /* =================================== OUTER FLEXBOX CONTAINERS ============================= */
 .container-flexbox { 
-	display: flex;
-	justify-content: space-between;
+	display: flex;	
 }
 
 
