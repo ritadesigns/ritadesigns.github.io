@@ -115,10 +115,11 @@ img { width: 100%; height: auto }
 }
 
 
+
 /* =================================== OUTER FLEXBOX CONTAINERS ============================= */
 .container-flexbox { 
 	display: flex;
-
+	justify-content: space-between;
 }
 
 
@@ -257,7 +258,7 @@ img { width: 100%; height: auto }
 	display: flex;
 	justify-content: space-between;
    flex-wrap: wrap;
-   background: #pink
+   background:pink
 }
 
 /* Desktop - inside padding  */
