@@ -126,26 +126,6 @@
 
 
 
-<!-- Begin JavaScript code showing/hiding slide-out menu -->
-<script>
-		document.querySelector('.item-icon').addEventListener('click', toggleMobileMenu)
-	
-		function toggleMobileMenu() {
-			//toggle hamburger icon
-			let elemIcon = document.querySelector('.item-icon');
-			elemIcon.classList.toggle("change");
-		
-			//if mobile menu currently closed, open menu.
-			if (elemIcon.classList.contains('change')) {
-				document.querySelector(".container-menu-options-mobile").style.right = "0";
-			}
-			//if mobile menu currently open, close menu.
-			else {
-				document.querySelector(".container-menu-options-mobile").style.right = "-320px";
-			}
-		}
-	</script>
-
 
 <!-- JavaScript for Cookie Consent Popup Message -->
 	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
@@ -165,6 +145,26 @@
 	});
 	</script>
 	
+	<!-- Begin JavaScript code showing/hiding slide-out menu -->
+	<script>
+		document.querySelector('.item-icon').addEventListener('click', toggleMobileMenu)
+	
+		function toggleMobileMenu() {
+			//toggle hamburger icon
+			let elemIcon = document.querySelector('.item-icon');
+			elemIcon.classList.toggle("change");
+		
+			//if mobile menu currently closed, open menu.
+			if (elemIcon.classList.contains('change')) {
+				document.querySelector(".container-menu-options-mobile").style.right = "0";
+			}
+			//if mobile menu currently open, close menu.
+			else {
+				document.querySelector(".container-menu-options-mobile").style.right = "-320px";
+			}
+		}
+	</script>
+
 	
 	
 <!-- Begin footer -->
