@@ -250,33 +250,42 @@ img { width: 100%; height: auto }
 	.hero-block-5 h1 { margin-bottom: 5% }
 }
 
-/* ============ FOOTER STYLES ================= */
 
-/* Outer parent container */
+
+
+
+/* == Begin footer CSS == */
+
+/* Outer footer parent container */
 .container-footer { 
 	display: flex;
 	justify-content: space-between;
-   flex-wrap: wrap;
-   background:pink
+	flex-wrap: wrap;
+	background-color:#5ba745
 }
 
-/* Desktop - inside padding  */
+/* Desktop footer - inside padding  */
 @media all and (min-width:768px) {
-	.container-footer { padding: 3% 8% 5% 8% }
+	.container-footer { padding: 3% 8% 3% 8% }
 }
 
-/* Mobiles - inside padding */
+/* Mobiles footer - inside padding */
 @media all and (max-width:767px) {
 	.container-footer { padding: 12% 8% 1% 8% }
 }
 
-/* Inner columns */
+/* Inner footer columns */
 
 /* Desktops - 3 columns */
 @media all and (min-width:768px) { 
    .container-footer .item-3:nth-child(1) { width: 20% }
-   .container-footer .item-3:nth-child(2) { width: 50% }
-   .container-footer .item-3:nth-child(3) { width: 20% }
+   .container-footer .item-3:nth-child(2) { 
+      width: 50%;
+      /* text-align: center */
+   }
+   .container-footer .item-3:nth-child(3) { 
+      width: 20%;
+   }
 }
 
 /* Mobiles - 1 column */
@@ -290,7 +299,7 @@ img { width: 100%; height: auto }
    .container-footer .item-3:nth-child(3) { order: 3 } 
 }
 
-/* Styles for background, text and links */
+/* Styles for footer background, text, icons and links */
 
 .container-footer .item-3 h4,
 .container-footer .item-3 p,
@@ -301,14 +310,16 @@ img { width: 100%; height: auto }
 
 .container-footer .item-3 h4 {
    font-weight: bold;
+   /* text-transform: uppercase */
    margin-bottom: 12px;
-   font-size: calc(18px + (20 - 18) * ((100vw - 320px)/(1600 - 320)));
+   font-size: calc(17px + (19 - 17) * ((100vw - 320px)/(1600 - 320)));
 }
 
 .container-footer .item-3 p {
    font-weight: normal;
    margin-bottom: 12px;
    font-size: calc(15px + (18 - 15) * ((100vw - 320px)/(1600 - 320)));
+   line-height: 1.6
 }
 
 .container-footer .item-3 i { 
@@ -330,5 +341,7 @@ img { width: 100%; height: auto }
 .container-footer .item-3 p a:hover, 
 .container-footer .item-3 p a:active  {
    border-bottom-color: #fff
-
 }
+
+/* == End footer CSS == */
+
