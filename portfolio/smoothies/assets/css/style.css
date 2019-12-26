@@ -19,8 +19,7 @@ img { width: 100%; height: auto }
 }
 
 .container-menu-desktop.item-logo { 
-
-
+	background-color: #pink;
 }
 
 .container-menu-desktop .item-menu-options ul li { 
