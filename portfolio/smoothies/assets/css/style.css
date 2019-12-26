@@ -7,6 +7,7 @@ img { width: 100%; height: auto }
 
 
 
+
 /* Desktop - show this menu  */
 @media all and (min-width:768px){
 .container-menu-desktop { 
@@ -261,7 +262,7 @@ img { width: 100%; height: auto }
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	background-color:#5ba745
+	background-color:#pink
 }
 
 /* Desktop footer - inside padding  */
