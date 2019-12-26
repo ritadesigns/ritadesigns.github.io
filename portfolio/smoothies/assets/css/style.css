@@ -8,18 +8,21 @@ img { width: 100%; height: auto }
 
 
 
+
+
 /* Desktop - show this menu  */
 @media all and (min-width:768px){
 .container-menu-desktop { 
 	display: flex;
 	justify-content: space-between;
 	padding: 1% 5% 1% 5%;
-	background-color: #pink;
+	background-color: transparent;
 	margin-bottom: -64px;
 }
 
 .container-menu-desktop.item-logo { 
-	background-color: #pink;
+
+
 }
 
 .container-menu-desktop .item-menu-options ul li { 
@@ -30,14 +33,14 @@ img { width: 100%; height: auto }
 .container-menu-desktop .item-menu-options ul li a:link,
 .container-menu-desktop .item-menu-options ul li a:visited{
 	text-decoration: none;
-	color: #fff
+	color: white
 }
 
 
 .container-menu-desktop .item-menu-options ul li a:hover,
 .container-menu-desktop .item-menu-options ul li a:active { 
 	text-decoration: underline;
-	color: #fff
+	color: white
 }
 
 .container-menu-desktop .item-menu-options ul li a.btn:link,
@@ -45,7 +48,7 @@ img { width: 100%; height: auto }
 .container-menu-desktop .item-menu-options ul li a.btn:hover,
 .container-menu-desktop .item-menu-options ul li a.btn:active { 
 	text-decoration: none;
-    color: #pink;
+    color: inherit;
     border-style: solid;
     border-width: 2px;
     padding: 6px 24px;
@@ -55,7 +58,7 @@ img { width: 100%; height: auto }
     letter-spacing: 1px;
 	line-height: 1;
 	border-radius: 25px;
-	color: #fff
+	color: white
  }
 
 /* mobiles- ihide this menu  */
@@ -72,7 +75,7 @@ img { width: 100%; height: auto }
 
 .menu-desktop-light .item-menu ul li a:hover,
 .menu-desktop-light .item-menu ul li a:active {
-	color: #fff;
+	color: #c60021;
 }
 
 .menu-desktop-light .item-menu ul li a.btn-solid { 
@@ -85,12 +88,12 @@ img { width: 100%; height: auto }
 }
 
 /*== Transparent desktop menu == */
-.menu-desktop-transparent { background-color: #pink }
+.menu-desktop-transparent { background-color: transparent }
 
-.menu-desktop-transparent .item-menu ul li a { color: #fff; font-weight:bold }
+.menu-desktop-transparent .item-menu ul li a { color: #fff;font-weight:bold }
 
 .menu-desktop-transparent .item-menu ul li a.btn-solid { 
-	background-color: #fff; border-color: #c60021; color: #fff;
+	background-color: #c60021; border-color: #c60021; color: #fff;
 }
 
 .menu-desktop-transparent .item-menu ul li a.btn-solid:hover, 
@@ -102,6 +105,15 @@ img { width: 100%; height: auto }
 .menu-desktop-sticky { position: fixed; width: 100%; }
 
 }
+
+
+
+
+
+
+
+
+
 
 /* === HERO BLOCK 5 === */
 
