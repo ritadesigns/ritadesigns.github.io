@@ -13,7 +13,7 @@ img { width: 100%; height: auto }
 	display: flex;
 	justify-content: space-between;
 	padding: 1% 5% 1% 5%;
-	background-color: #pink;
+	background-color: transparent;
 	margin-bottom: -64px;
 }
 
@@ -30,14 +30,14 @@ img { width: 100%; height: auto }
 .container-menu-desktop .item-menu-options ul li a:link,
 .container-menu-desktop .item-menu-options ul li a:visited{
 	text-decoration: none;
-	color: #white
+	color: white
 }
 
 
 .container-menu-desktop .item-menu-options ul li a:hover,
 .container-menu-desktop .item-menu-options ul li a:active { 
 	text-decoration: underline;
-	color: #white
+	color: white
 }
 
 .container-menu-desktop .item-menu-options ul li a.btn:link,
@@ -55,7 +55,7 @@ img { width: 100%; height: auto }
     letter-spacing: 1px;
 	line-height: 1;
 	border-radius: 25px;
-	color: #white
+	color: white
  }
 
 /* mobiles- ihide this menu  */
@@ -85,17 +85,17 @@ img { width: 100%; height: auto }
 }
 
 /*== Transparent desktop menu == */
-.menu-desktop-transparent { background-color: #pink }
+.menu-desktop-transparent { background-color: transparent }
 
 .menu-desktop-transparent .item-menu ul li a { color: #fff;font-weight:bold }
 
 .menu-desktop-transparent .item-menu ul li a.btn-solid { 
-	background-color: #pink; border-color: #c60021; color: #fff;
+	background-color: #c60021; border-color: #c60021; color: #fff;
 }
 
 .menu-desktop-transparent .item-menu ul li a.btn-solid:hover, 
 .menu-desktop-transparent .item-menu ul li a.btn-solid:active { 
-	background-color: #pink; color: #c60021; border-color: #c60021;
+	background-color: #fff; color: #c60021; border-color: #c60021;
 }
 
 /*== Sticky desktop menu == */
@@ -113,7 +113,6 @@ img { width: 100%; height: auto }
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-
 
 
 /* =================================== OUTER FLEXBOX CONTAINERS ============================= */
