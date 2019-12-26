@@ -90,12 +90,12 @@ img { width: 100%; height: auto }
 .menu-desktop-transparent .item-menu ul li a { color: #fff;font-weight:bold }
 
 .menu-desktop-transparent .item-menu ul li a.btn-solid { 
-	background-color: #c60021; border-color: #c60021; color: #fff;
+	background-color: #pink; border-color: #c60021; color: #fff;
 }
 
 .menu-desktop-transparent .item-menu ul li a.btn-solid:hover, 
 .menu-desktop-transparent .item-menu ul li a.btn-solid:active { 
-	background-color: #fff; color: #c60021; border-color: #c60021;
+	background-color: #pink; color: #c60021; border-color: #c60021;
 }
 
 /*== Sticky desktop menu == */
@@ -258,7 +258,7 @@ img { width: 100%; height: auto }
 	display: flex;
 	justify-content: space-between;
    flex-wrap: wrap;
-   background:pink
+   background: #pink
 }
 
 /* Desktop - inside padding  */
