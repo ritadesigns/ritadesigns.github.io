@@ -13,12 +13,13 @@ img { width: 100%; height: auto }
 	display: flex;
 	justify-content: space-between;
 	padding: 1% 5% 1% 5%;
-	background-color: #pink;
+	background-color: transparent;
 	margin-bottom: -64px;
 }
 
 .container-menu-desktop.item-logo { 
-	color: #pink;
+
+
 }
 
 .container-menu-desktop .item-menu-options ul li { 
@@ -29,14 +30,14 @@ img { width: 100%; height: auto }
 .container-menu-desktop .item-menu-options ul li a:link,
 .container-menu-desktop .item-menu-options ul li a:visited{
 	text-decoration: none;
-	color: #white;
+	color: #white
 }
 
 
 .container-menu-desktop .item-menu-options ul li a:hover,
 .container-menu-desktop .item-menu-options ul li a:active { 
 	text-decoration: underline;
-	color: #white;
+	color: #white
 }
 
 .container-menu-desktop .item-menu-options ul li a.btn:link,
@@ -54,7 +55,7 @@ img { width: 100%; height: auto }
     letter-spacing: 1px;
 	line-height: 1;
 	border-radius: 25px;
-	color: #white;
+	color: #white
  }
 
 /* mobiles- ihide this menu  */
@@ -84,7 +85,7 @@ img { width: 100%; height: auto }
 }
 
 /*== Transparent desktop menu == */
-.menu-desktop-transparent { background-color: #pink }
+.menu-desktop-transparent { background-color: transparent }
 
 .menu-desktop-transparent .item-menu ul li a { color: #fff;font-weight:bold }
 
@@ -99,6 +100,7 @@ img { width: 100%; height: auto }
 
 /*== Sticky desktop menu == */
 .menu-desktop-sticky { position: fixed; width: 100%; }
+
 }
 
 /* === HERO BLOCK 5 === */
@@ -116,8 +118,7 @@ img { width: 100%; height: auto }
 
 /* =================================== OUTER FLEXBOX CONTAINERS ============================= */
 .container-flexbox { 
-	display: flex;
-	justify-content: space-between;
+	display: flex;	
 }
 
 
@@ -256,7 +257,7 @@ img { width: 100%; height: auto }
 	display: flex;
 	justify-content: space-between;
    flex-wrap: wrap;
-   background: #pink
+   background:pink
 }
 
 /* Desktop - inside padding  */
