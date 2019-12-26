@@ -73,7 +73,7 @@ img { width: 100%; height: auto }
 
 .menu-desktop-light .item-menu ul li a:hover,
 .menu-desktop-light .item-menu ul li a:active {
-	color: #c60021;
+	color: #fff;
 }
 
 .menu-desktop-light .item-menu ul li a.btn-solid { 
@@ -91,7 +91,7 @@ img { width: 100%; height: auto }
 .menu-desktop-transparent .item-menu ul li a { color: #fff;font-weight:bold }
 
 .menu-desktop-transparent .item-menu ul li a.btn-solid { 
-	background-color: #c60021; border-color: #c60021; color: #fff;
+	background-color: #fff; border-color: #c60021; color: #fff;
 }
 
 .menu-desktop-transparent .item-menu ul li a.btn-solid:hover, 
