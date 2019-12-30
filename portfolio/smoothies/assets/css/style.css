@@ -7,9 +7,6 @@ img { width: 100%; height: auto }
 
 
 
-
-
-
 /* Desktop - show this menu  */
 @media all and (min-width:768px){
 .container-menu-desktop { 
@@ -106,15 +103,6 @@ img { width: 100%; height: auto }
 
 }
 
-
-
-
-
-
-
-
-
-
 /* === HERO BLOCK 5 === */
 
 .hero-block-5 {
@@ -130,7 +118,8 @@ img { width: 100%; height: auto }
 
 /* =================================== OUTER FLEXBOX CONTAINERS ============================= */
 .container-flexbox { 
-	display: flex;	
+	display: flex;
+	justify-content: space-between;
 }
 
 
@@ -261,6 +250,12 @@ img { width: 100%; height: auto }
 	}
 	.hero-block-5 h1 { margin-bottom: 5% }
 }
+
+
+
+
+
+
 
 
 
