@@ -30,14 +30,14 @@ img { width: 100%; height: auto }
 .container-menu-desktop .item-menu-options ul li a:link,
 .container-menu-desktop .item-menu-options ul li a:visited{
 	text-decoration: none;
-	color: white
+	color: #white
 }
 
 
 .container-menu-desktop .item-menu-options ul li a:hover,
 .container-menu-desktop .item-menu-options ul li a:active { 
 	text-decoration: underline;
-	color: white
+	color: #white
 }
 
 .container-menu-desktop .item-menu-options ul li a.btn:link,
@@ -55,7 +55,7 @@ img { width: 100%; height: auto }
     letter-spacing: 1px;
 	line-height: 1;
 	border-radius: 25px;
-	color: white
+	color: #white
  }
 
 /* mobiles- ihide this menu  */
