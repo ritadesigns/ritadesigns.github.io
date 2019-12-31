@@ -477,7 +477,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 }
 
 /* Background colors */
-.container-flexbox.bg-orange { background-color: #ff5000 /* #e45724 */ }
+.container-flexbox.bg-orange { background-color: #A287CA /* #e45724 */ }
 .container-flexbox.bg-light  { background-color: #eff8f5 /* #f0f0f0 */ }
 
 /* ================ INNER FLEXBOX COLUMN CONTAINERS: 4 COLUMNS ON DESKTOPS, 2 COLUMNS ON MOBILES ============== */
@@ -542,7 +542,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 }
 
 .container-flexbox .item-1 p a { 
-	color: #ff5000;
+	color: #A287CA;
 	font-weight: bold;
 }
 
@@ -594,7 +594,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 .hero-block-5 h2 {
 	font-size: calc(24px + (64 - 24) * ((100vw - 320px)/(1600 - 320)));
 	line-height: 1.5;
-	color:  #ff5000
+	color:  #A287CA
 }
 
 /* Desktop - block height, text width and h1 bottom margin */
