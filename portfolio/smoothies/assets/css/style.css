@@ -90,7 +90,7 @@ img { width: 100%; height: auto }
 .menu-desktop-transparent .item-menu ul li a { color: #fff;font-weight:bold }
 
 .menu-desktop-transparent .item-menu ul li a.btn-solid { 
-	background-color: #c60021; border-color: #c60021; color: #fff;
+	background-color: #fff; border-color: #c60021; color: #fff;
 }
 
 .menu-desktop-transparent .item-menu ul li a.btn-solid:hover, 
@@ -102,6 +102,11 @@ img { width: 100%; height: auto }
 .menu-desktop-sticky { position: fixed; width: 100%; }
 
 }
+
+
+
+
+
 
 /* === HERO BLOCK 5 === */
 
