@@ -259,44 +259,44 @@ img { width: 100%; height: auto; display: block }
 }
 
 /* menu links */
-.menu-light ul li a:link,  .menu-light ul li a:visited { color: #ff5000 }
+.menu-light ul li a:link,  .menu-light ul li a:visited { color: #A287CA }
 .menu-light ul li a:hover, .menu-light ul li a:active  { color: #222 }
 
 /* cta button */
 .menu-light ul li a.btn-cta:link, 
 .menu-light ul li a.btn-cta:visited {
     background-color: transparent;
-    color: #ff5000;
-    border-color:#ff5000
+    color: #A287CA;
+    border-color: #A287CA
 }
 
 .menu-light ul li a.btn-cta:hover,
 .menu-light ul li a.btn-cta:active {
-    background-color: #ff5000;
+    background-color: #A287CA;
     color: #fff;
     border-color:#ff5000
 }
 
 /* on mobiles only */
-.menu-light.flyout-menu hr { background-color: #ff5000; border-color: #ff5000 } 
+.menu-light.flyout-menu hr { background-color: #A287CA; border-color: #A287CA } 
 
 .menu-light.flyout-menu h4,
 .menu-light.flyout-menu h5,
 .menu-light.flyout-menu h5 a, 
-.menu-light.flyout-menu p { color: #ff5000 } 
+.menu-light.flyout-menu p { color: #A287CA } 
 
 /* colour of hamburger icon bars */
 .menu-light .item-icon .bar1, 
 .menu-light .item-icon .bar2, 
-.menu-light .item-icon .bar3 { background-color: #ff5000 }	
+.menu-light .item-icon .bar3 { background-color: #A287CA }	
 
 /* phone number link */
-a[href^=tel] { text-decoration: none; color: #ff5000 }
+a[href^=tel] { text-decoration: none; color: #A287CA }
 
 /* email link */
 .menu-light.flyout-menu h5 a:link, 
 .menu-light.flyout-menu h5 a:visited {
-    border-bottom-color:#ff5000;
+    border-bottom-color: #A287CA;
 }
 
 .menu-light.flyout-menu h5 a:hover, 
@@ -305,10 +305,10 @@ a[href^=tel] { text-decoration: none; color: #ff5000 }
 }
 
 /* profile image border colour */
-.menu-light.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: #ff5000 }
+.menu-light.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: #A287CA }
 
 /* contact icons */
-.menu-light.flyout-menu .fly-out-social-icons a i { color:#ff5000 }
+.menu-light.flyout-menu .fly-out-social-icons a i { color: #A287CA }
 
 /* === End light background menu === */
 
@@ -316,7 +316,7 @@ a[href^=tel] { text-decoration: none; color: #ff5000 }
 
 /* background colour */
 .menu-dark { 
-	background-color: #ff5000; 
+	background-color: #A287CA; 
 	transition: all .5s ease-in-out
 }
 
@@ -327,7 +327,7 @@ a[href^=tel] { text-decoration: none; color: #ff5000 }
 /* cta button */
 .menu-dark ul li a.btn-cta:link,
 .menu-dark ul li a.btn-cta:visited { 
-    background-color: #ff5000;
+    background-color: #A287CA;
     color: #fff;
     border-color:#fff
 }
@@ -335,7 +335,7 @@ a[href^=tel] { text-decoration: none; color: #ff5000 }
 .menu-dark ul li a.btn-cta:hover,
 .menu-dark ul li a.btn-cta:active { 
     background-color: #fff;
-    color: #ff5000;
+    color: #A287CA;
     border-color:#fff
 }
 
@@ -363,11 +363,11 @@ a[href^=tel] { text-decoration: none; color: #fff }
 
 .menu-dark.flyout-menu h5 a:hover, 
 .menu-dark.flyout-menu h5 a:active {
-    border-bottom-color: #ff5000;
+    border-bottom-color: #A287CA;
 }
 
 /* profile image border colour */
-.menu-dark.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: #ff5000 }
+.menu-dark.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: #A287CA }
 
 /* contact icons */
 .menu-dark.flyout-menu .fly-out-social-icons a i { color:#fff }
@@ -391,16 +391,16 @@ a[href^=tel] { text-decoration: none; color: #fff }
 /* cta button */
 .menu-transparent ul li a.btn-cta:link,
 .menu-transparent ul li a.btn-cta:visited { 
-    background-color: #ff5000;
+    background-color: #A287CA;
     color: #fff;
-    border-color:#ff5000;
+    border-color: #A287CA;
 }
 
 .menu-transparent ul li a.btn-cta:hover,
 .menu-transparent ul li a.btn-cta:active { 
     background-color: #fff;
-    color: #ff5000;
-    border-color:#ff5000
+    color: #A287CA;
+    border-color: #A287CA
 }
 
 /* on mobiles only - various content */
@@ -427,11 +427,11 @@ a[href^=tel] { text-decoration: none; color: #fff }
 
 .menu-transparent.flyout-menu h5 a:hover, 
 .menu-transparent.flyout-menu h5 a:active {
-    border-bottom-color: #ff5000;
+    border-bottom-color: #A287CA;
 }
 
 /* profile image border colour */
-.menu-transparent.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: #ff5000 }
+.menu-transparent.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: #A287CA }
 
 /* contact icons */
 .menu-transparent.flyout-menu .fly-out-social-icons a i { color:#fff }
