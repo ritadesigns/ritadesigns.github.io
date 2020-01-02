@@ -802,7 +802,7 @@ a[href^=tel] { text-decoration: none; color: #222 }
 }
 
 #email-signup-form #btn-submit {
-	color:#fff;
+	color: #222;
     border: solid 2px #fff; 
 	padding: 12px 22px;    
 	background-color: pink;
@@ -812,9 +812,9 @@ a[href^=tel] { text-decoration: none; color: #222 }
 }
 
 #email-signup-form #btn-submit:hover {
-	color:#fff;
-	background-color:#5ba745;
-	border: solid 2px pink
+	color:#222;
+	background-color:pink;
+	border: solid 2px #222
 }
 
 #email-signup-form #btn-submit i {
