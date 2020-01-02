@@ -34,8 +34,6 @@ body { font-family: 'Roboto', sans-serif; background-color: #f5f5f5 }
     .flyout-menu.menu-light { display: none }
 }
 
-/* sticks menu to top of desktop and/or mobile screen */
-.menu-sticky { position: fixed; top: 0; left: 0; right: 0; }
 
 /* Height of desktop menu and mobile menu bar */
 .container-menu-desktop, .container-menu-bar-mobile { height:72px }
@@ -437,6 +435,12 @@ a[href^=tel] { text-decoration: none; color: #fff }
 
 
 
+
+
+/*== Sticky desktop menu == */
+.menu-desktop-sticky { position: fixed; width: 100%; }
+
+}
 
 
 
