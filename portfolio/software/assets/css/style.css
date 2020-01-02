@@ -593,7 +593,7 @@ a[href^=tel] { text-decoration: none; color: #222 }
 /* Single column item-1 */
 .container-flexbox .item-1 h2 { 
 	font-weight: 900; 
-	color: #5ba745;
+	color: pink;
 	line-height: 1.2;
 	margin-bottom: 12px;
 	letter-spacing: -1px;
