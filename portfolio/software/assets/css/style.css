@@ -456,10 +456,10 @@ a[href^=tel] { text-decoration: none; color: #222 }
 }
 
 /* Background colors */
-.container-flexbox.bg-light-gray { background-color: #f5f5f5 }
+.container-flexbox.bg-light-gray { background-color: #f5f5f5  }
 .container-flexbox.bg-green      { background-color: pink }
 
-.container-flexbox.hero-block { background-color: #f5f5f5 }
+.container-flexbox.hero-block { background-color: white }
 
 
 /* Hero block height and spacing  */
