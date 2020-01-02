@@ -31,9 +31,42 @@
 
 <body>
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+
+    <!-- Begin desktop menu -->
+    <div class="container-menu-desktop menu-light">
+			<a href="../..index.html"><img src="menus-logo.png"></a>
+			<ul>
+				<li><a href="#features">Features</a></li>
+				<li><a href="#benefits">Benefits</a></li>
+				<li><a href="#testimonials">Testimonials</a></li>
+			</ul>
+		</div>
+		<!-- End desktop menu -->
+	
+	
+		<!-- Begin menu mobile -->
+	
+		<div class="container-menu-bar-mobile menu-dark">
+			<div class="item-logo">
+				<img src="menus-logo.png" alt="logo">
+			</div>
+			<div class="item-icon">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+		</div>
+	
+		<div class="container-menu-options-mobile menu-dark">
+			<ul>
+				<li><a href="#">Option 1</a></li>
+				<li><a href="#">option 2</a></li>
+				<li><a href="#">Option 3</a></li>
+				<li><a href="#" class="btn-cta">CTA Button</a></li>
+			</ul>
+		</div>
+		<!-- end menu mobile -->
+		
 
 	<div class="container-flexbox">
 		<div class="item item-2">
@@ -111,14 +144,21 @@
 	</div><!-- end container-flexbox -->
 
 
-	<div class="container-flexbox">
+	<div class="container-flexbox" id= "features">
 		<div class="item item-1">
 			<h2>Happy users</h2>
 			<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
 		</div>
 	</div>
 
-	<div class="container-flexbox happy-users">
+	<div class="container-flexbox" id= "benefits">
+			<div class="item item-2">
+				<h2>Happy users</h2>
+				<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+			</div>
+		</div>
+
+	<div class="container-flexbox happy-users" id= "testimonials">
 
 		<div class="item-3">
 			<img src="assets/img/face-2.png"   class= "img-cicle" alt="content performancee">
@@ -140,6 +180,56 @@
 
 	</div><!-- end container-flexbox -->
 
+	<!-- Begin footer -->
+	<div class="container-footer">
+
+		<div class="item-3">
+
+			<h4>SITE MAP</h4>
+			<p><i class="fas fa-home fa-fw"></i><a href="index.html">Home</a></p>
+			<p><i class="far fa-file-alt fa-fw"></i><a href="index.html">Portfolio</a></p>
+			<p><i class="fas fa-lock fa-fw"></i><a href="privacy.html">Privacy</a></p>
+		
+		</div>
+
+		<div class="item-3">
+			<h4>ABOUT ME</h4>
+			<p>Hi, I'm Rita Brereton. I'm a graphic and web designer.</p>
+			
+			<p>I created this sample web page to showcase some of my digital creation skills.</p>
+		</div>
+
+		<div class="item-3">
+			<h4>CONTACT</h4>
+			<p><i class="far fa-envelope fa-fw"></i><a href="mailto:breretonrita2@gmail.com">Email</a></p>
+			<p><i class="fab fa-github-square fa-fw"></i><a href="https://ritadesigns.github.io/" target="_blank">GitHub</a></p>
+			<p><i class="fab fa-linkedin fa-fw"></i><a href="https://www.linkedin.com/in/rita-brereton-71368083/" target="_blank">Linkedin</a></p>
+		</div>
+	</div>
+	
+	<!-- End footer -->
+
+
+	<!-- Begin JavaScript code showing/hiding slide-out menu -->
+    <script>
+			document.querySelector('.item-icon').addEventListener('click', toggleMobileMenu)
+		
+			function toggleMobileMenu() {
+				//toggle hamburger icon
+				let elemIcon = document.querySelector('.item-icon');
+				elemIcon.classList.toggle("change");
+			
+				//if mobile menu currently closed, open menu.
+				if (elemIcon.classList.contains('change')) {
+					document.querySelector(".container-menu-options-mobile").style.right = "0";
+				}
+				//if mobile menu currently open, close menu.
+				else {
+					document.querySelector(".container-menu-options-mobile").style.right = "-320px";
+				}
+			}
+		</script>
+		<!-- End JavaScript code showing/hiding slide-out menu -->
 
 </BODY>
 </HTML>
