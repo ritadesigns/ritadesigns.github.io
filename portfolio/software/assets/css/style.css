@@ -263,14 +263,14 @@ body { font-family: 'Roboto', sans-serif; background-color: #f5f5f5 }
 .menu-light ul li a.btn-cta:link, 
 .menu-light ul li a.btn-cta:visited {
     background-color: transparent;
-    color: pink;
+    color: #222;
     border-color:pink
 }
 
 .menu-light ul li a.btn-cta:hover,
 .menu-light ul li a.btn-cta:active {
     background-color: pink;
-    color: pink;
+    color: #222;
     border-color:pink
 }
 
@@ -280,20 +280,20 @@ body { font-family: 'Roboto', sans-serif; background-color: #f5f5f5 }
 .menu-light.flyout-menu h4,
 .menu-light.flyout-menu h5,
 .menu-light.flyout-menu h5 a, 
-.menu-light.flyout-menu p { color: pink } 
+.menu-light.flyout-menu p { color: #222 } 
 
 /* colour of hamburger icon bars */
 .menu-light .item-icon .bar1, 
 .menu-light .item-icon .bar2, 
-.menu-light .item-icon .bar3 { background-color: pink }	
+.menu-light .item-icon .bar3 { background-color: #222 }	
 
 /* phone number link */
-a[href^=tel] { text-decoration: none; color: pink }
+a[href^=tel] { text-decoration: none; color: #222 }
 
 /* email link */
 .menu-light.flyout-menu h5 a:link, 
 .menu-light.flyout-menu h5 a:visited {
-    border-bottom-color:pink;
+    border-bottom-color: pink;
 }
 
 .menu-light.flyout-menu h5 a:hover, 
@@ -325,15 +325,15 @@ a[href^=tel] { text-decoration: none; color: pink }
 .menu-dark ul li a.btn-cta:link,
 .menu-dark ul li a.btn-cta:visited { 
     background-color: pink;
-    color: #fff;
-    border-color:#fff
+    color: #222;
+    border-color: #222
 }
 
 .menu-dark ul li a.btn-cta:hover,
 .menu-dark ul li a.btn-cta:active { 
-    background-color: #fff;
+    background-color: #222;
     color: pink;
-    border-color:#fff
+    border-color: #222
 }
 
 /* on mobiles only - various content */
