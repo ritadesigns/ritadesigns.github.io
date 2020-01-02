@@ -246,7 +246,7 @@ body { font-family: 'Roboto', sans-serif; background-color: #f5f5f5 }
 
 /* background colour */
 .menu-light { 
-	background-color: #fff;
+	background-color: pink;
 	transition: all .5s ease-in-out;
 }
 
@@ -270,17 +270,17 @@ body { font-family: 'Roboto', sans-serif; background-color: #f5f5f5 }
 .menu-light ul li a.btn-cta:hover,
 .menu-light ul li a.btn-cta:active {
     background-color: pink;
-    color: #fff;
+    color: pink;
     border-color:pink
 }
 
 /* on mobiles only */
-.menu-light.flyout-menu hr { background-color: #pink; border-color: pink } 
+.menu-light.flyout-menu hr { background-color: pink; border-color: pink } 
 
 .menu-light.flyout-menu h4,
 .menu-light.flyout-menu h5,
 .menu-light.flyout-menu h5 a, 
-.menu-light.flyout-menu p { color: #pink } 
+.menu-light.flyout-menu p { color: pink } 
 
 /* colour of hamburger icon bars */
 .menu-light .item-icon .bar1, 
@@ -293,12 +293,12 @@ a[href^=tel] { text-decoration: none; color: pink }
 /* email link */
 .menu-light.flyout-menu h5 a:link, 
 .menu-light.flyout-menu h5 a:visited {
-    border-bottom-color:#pink;
+    border-bottom-color:pink;
 }
 
 .menu-light.flyout-menu h5 a:hover, 
 .menu-light.flyout-menu h5 a:active {
-    border-bottom-color: #fff;
+    border-bottom-color: pink;
 }
 
 /* profile image border colour */
@@ -318,7 +318,7 @@ a[href^=tel] { text-decoration: none; color: pink }
 }
 
 /* menu links */
-.menu-dark ul li a:link,  .menu-dark ul li a:visited { color: #fff }
+.menu-dark ul li a:link,  .menu-dark ul li a:visited { color: pink }
 .menu-dark ul li a:hover, .menu-dark ul li a:active  { color: #b8b8b8 }
 
 /* cta button */
@@ -342,7 +342,7 @@ a[href^=tel] { text-decoration: none; color: pink }
 .menu-dark.flyout-menu h4,
 .menu-dark.flyout-menu h5,
 .menu-dark.flyout-menu h5 a,
-.menu-dark.flyout-menu p { color:#fff } 
+.menu-dark.flyout-menu p { color: pink } 
 
 /* colour of hamburger icon bars */
 .menu-dark .item-icon .bar1, 
