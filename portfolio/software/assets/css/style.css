@@ -623,7 +623,7 @@ a[href^=tel] { text-decoration: none; color: #222 }
 
 .container-flexbox.bg-green .item-1 p.big-text a {
 	text-decoration: none;
-	color: pink;
+	color: #222;
 	border-bottom: solid 2px pink;
 	padding-bottom: 3px;
 }
@@ -631,7 +631,7 @@ a[href^=tel] { text-decoration: none; color: #222 }
 .container-flexbox.bg-green .item-1 p.big-text a:hover,
 .container-flexbox.bg-green .item-1 p.big-text a:active {
 	text-decoration: none;
-	color: pink;
+	color: #222;
 	border-bottom: solid 2px pink;
 	padding-bottom: 3px;
 }
@@ -711,7 +711,7 @@ a[href^=tel] { text-decoration: none; color: #222 }
 /* All screens */
 .container-form-email-signup  { 
 	text-align: center; 
-	background-color:#5ba745; 
+	background-color: pink; 
 	border: solid 1px gray
 }
 
@@ -745,7 +745,7 @@ a[href^=tel] { text-decoration: none; color: #222 }
 /* Text */
 .container-form-email-signup p { 
     font-weight: normal;
-    color: pink; 
+    color: #222; 
     line-height: 1.5;
     margin-bottom: 7%;    
 	font-size: calc(16px + (22 - 16) * ((100vw - 320px) / (1600 - 320))); 
