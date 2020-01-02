@@ -828,6 +828,12 @@ a[href^=tel] { text-decoration: none; color: #fff }
 	#email-signup-form #btn-submit { margin: 30px auto 0 auto; width: 80% }
 }
 
+
+
+
+
+
+
 /* == Begin footer CSS == */
 
 /* Outer footer parent container */
@@ -835,7 +841,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	background-color:#5ba745
+	background-color: pink
 }
 
 /* Desktop footer - inside padding  */
