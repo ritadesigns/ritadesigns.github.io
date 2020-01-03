@@ -274,7 +274,7 @@ img { width: 100%; height: auto; display: block }
 .menu-light ul li a.btn-cta:active {
     background-color: #A287CA;
     color: #fff;
-    border-color:#ff5000
+    border-color:#A287CA
 }
 
 /* on mobiles only */
@@ -370,7 +370,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 .menu-dark.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: #A287CA }
 
 /* contact icons */
-.menu-dark.flyout-menu .fly-out-social-icons a i { color:#fff }
+.menu-dark.flyout-menu .fly-out-social-icons a i { color: #fff }
 
 /* === End dark background menu === */
 
@@ -483,7 +483,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 }
 
 .container-hero-block h2 {
-	color:  #ff5000;
+	color:  #A287CA;
 	line-height: 1.5;
 	font-size: calc(32px + (64 - 32) * ((100vw - 320px)/(1600 - 320)));
 }
@@ -528,7 +528,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 }
 
 /* Background colors */
-.container-flexbox.bg-orange { background-color: #ff5000  }
+.container-flexbox.bg-orange { background-color: #A287CA  }
 
 
 /* ====== INNER FLEXBOX COLUMN: 1 COLUMN EVERY SCREEN ======= */
@@ -557,7 +557,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 /* ==== INNER FLEXBOX COLUMNS: 4 COLUMNS ON DESKTOPS, 2 COLUMNS ON MOBILES ======= */
 
 /* Desktops - 4 columns */
-@media all and (min-width:768px) { 
+@media all and (min-width: 768px) { 
 	.container-flexbox .item-4-2 { width: 22% }
 	.container-flexbox .item-4-2 { margin-bottom: 3% }
 }
@@ -594,7 +594,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 	margin-bottom:20px;
 	width: 70%; 
 	border-radius: 100%;
-	border-color: #ff5000;
+	border-color: #A287CA;
 	border-style: solid;
 	border-width: 6px
 }
@@ -951,7 +951,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 	float: right; 
 	color: #fff;
 	border: none; 
-	background-color: #ff5000;
+	background-color: #A287CA;
 	font-weight: bold;
 	padding: 12px 22px;
 	font-size: 96%;
