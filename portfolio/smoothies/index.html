@@ -195,6 +195,30 @@
 			"href": "https://ibat-web-dev.github.io/privacy.html"
 		}
 	});
+
+	// Code for menus with transparent background
+	window.onscroll = function() {swapMenuStyle()};
+
+	const headerDesktop = document.querySelector('.container-menu-desktop');
+	const headerMobile = document.querySelector('.container-menu-bar-mobile');
+
+	const stickyDesktop = headerDesktop.offsetTop +300;
+	const stickyMobile = headerDesktop.offsetTop  +300;
+
+	function swapMenuStyle() {
+		if (window.pageYOffset > stickyDesktop) {
+			headerDesktop.classList.add("menu-light","menu-drop-shadow");
+			headerDesktop.classList.remove("menu-transparent");
+			headerMobile.classList.add("menu-light","menu-drop-shadow");
+			headerMobile.classList.remove("menu-transparent");
+
+		} else {
+			headerDesktop.classList.add("menu-transparent");
+			headerDesktop.classList.remove("menu-light","menu-drop-shadow");
+			headerMobile.classList.add("menu-transparent");
+			headerMobile.classList.remove("menu-light","menu-drop-shadow");
+		}
+	}
 	</script>
 
 </body>
