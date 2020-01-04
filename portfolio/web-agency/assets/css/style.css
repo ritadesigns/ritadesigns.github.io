@@ -9,7 +9,7 @@ body { padding-top: 72px }
 /* ==== FONT AND COLOUR ==== */
 body { 
     font-family: 'Montserrat', sans-serif;
-    color: #F77BB6;
+    color: #222;
 }
 
 /* Begin menu styles */
@@ -263,7 +263,7 @@ body {
 
 /* menu links */
 .menu-light ul li a:link,  .menu-light ul li a:visited { color: #F77BB6 }
-.menu-light ul li a:hover, .menu-light ul li a:active  { color: #222 }
+.menu-light ul li a:hover, .menu-light ul li a:active  { color: #222}
 
 /* cta button */
 .menu-light ul li a.btn-cta:link, 
