@@ -663,7 +663,7 @@ img.image-shadow { box-shadow: 8px 10px 8px #888 }
 
 .container-flexbox .item-4-2 i { 
     font-size: calc(48px + (94 - 48) * ((100vw - 320px) / (1600 - 320))); 
-    color: #FF3366;
+    color: #F77BB6;
     margin-bottom:5%;
 }
 
@@ -692,7 +692,7 @@ img.image-shadow { box-shadow: 8px 10px 8px #888 }
 
 .container-flexbox .item-1 .no-margin-bottom { margin-bottom: 0 }
 .container-flexbox .item-3.no-padding-bottom { padding-bottom: 0 }
-.container-flexbox .item-3.bg-pastel-blue { background-color: #d7edff }
+.container-flexbox .item-3.bg-pastel-blue { background-color: #fef1ef }
 
 /* =============== BEGIN CONTACT FORM CSS ============= */
 
