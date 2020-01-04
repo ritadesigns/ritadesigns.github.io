@@ -252,7 +252,7 @@ body {
 
 /* background colour */
 .menu-light { 
-	background-color: #fff;
+	background-color: #222;
 	transition: all .5s ease-in-out;
 }
 
@@ -263,7 +263,7 @@ body {
 
 /* menu links */
 .menu-light ul li a:link,  .menu-light ul li a:visited { color: #F77BB6 }
-.menu-light ul li a:hover, .menu-light ul li a:active  { color: #fff}
+.menu-light ul li a:hover, .menu-light ul li a:active  { color: #222}
 
 /* cta button */
 .menu-light ul li a.btn-cta:link, 
