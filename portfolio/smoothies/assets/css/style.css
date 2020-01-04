@@ -254,44 +254,44 @@ html { scroll-behavior: smooth; scroll-padding-top: 72px }
 }
 
 /* menu links */
-.menu-light ul li a:link,  .menu-light ul li a:visited { color: #d1274b }
+.menu-light ul li a:link,  .menu-light ul li a:visited { color: pink }
 .menu-light ul li a:hover, .menu-light ul li a:active  { color: #222 }
 
 /* cta button */
 .menu-light ul li a.btn-cta:link, 
 .menu-light ul li a.btn-cta:visited {
     background-color: transparent;
-    color: #d1274b;
-    border-color:#d1274b
+    color: pink;
+    border-color: pink
 }
 
 .menu-light ul li a.btn-cta:hover,
 .menu-light ul li a.btn-cta:active {
-    background-color: #d1274b;
+    background-color: pink;
     color: #fff;
-    border-color:#d1274b
+    border-color: pink
 }
 
 /* on mobiles only */
-.menu-light.flyout-menu hr { background-color: #d1274b; border-color: #d1274b } 
+.menu-light.flyout-menu hr { background-color: pink; border-color: pink } 
 
 .menu-light.flyout-menu h4,
 .menu-light.flyout-menu h5,
 .menu-light.flyout-menu h5 a, 
-.menu-light.flyout-menu p { color: #d1274b } 
+.menu-light.flyout-menu p { color: pink } 
 
 /* colour of hamburger icon bars */
 .menu-light .item-icon .bar1, 
 .menu-light .item-icon .bar2, 
-.menu-light .item-icon .bar3 { background-color: #d1274b }	
+.menu-light .item-icon .bar3 { background-color: pink }	
 
 /* phone number link */
-a[href^=tel] { text-decoration: none; color: #d1274b }
+a[href^=tel] { text-decoration: none; color: pink}
 
 /* email link */
 .menu-light.flyout-menu h5 a:link, 
 .menu-light.flyout-menu h5 a:visited {
-    border-bottom-color:#d1274b;
+    border-bottom-color: pink;
 }
 
 .menu-light.flyout-menu h5 a:hover, 
@@ -300,10 +300,10 @@ a[href^=tel] { text-decoration: none; color: #d1274b }
 }
 
 /* profile image border colour */
-.menu-light.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: #d1274b }
+.menu-light.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: pink }
 
 /* contact icons */
-.menu-light.flyout-menu .fly-out-social-icons a i { color:#d1274b }
+.menu-light.flyout-menu .fly-out-social-icons a i { color: pink }
 
 /* === End light background menu === */
 
@@ -311,7 +311,7 @@ a[href^=tel] { text-decoration: none; color: #d1274b }
 
 /* background colour */
 .menu-dark { 
-	background-color: #d1274b; 
+	background-color: pink; 
 	transition: all .5s ease-in-out
 }
 
@@ -322,7 +322,7 @@ a[href^=tel] { text-decoration: none; color: #d1274b }
 /* cta button */
 .menu-dark ul li a.btn-cta:link,
 .menu-dark ul li a.btn-cta:visited { 
-    background-color: #d1274b;
+    background-color: pink;
     color: #fff;
     border-color:#fff
 }
@@ -330,7 +330,7 @@ a[href^=tel] { text-decoration: none; color: #d1274b }
 .menu-dark ul li a.btn-cta:hover,
 .menu-dark ul li a.btn-cta:active { 
     background-color: #fff;
-    color: #d1274b;
+    color: pink;
     border-color:#fff
 }
 
@@ -358,11 +358,11 @@ a[href^=tel] { text-decoration: none; color: #fff }
 
 .menu-dark.flyout-menu h5 a:hover, 
 .menu-dark.flyout-menu h5 a:active {
-    border-bottom-color: #d1274b;
+    border-bottom-color: pink;
 }
 
 /* profile image border colour */
-.menu-dark.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: #d1274b }
+.menu-dark.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: pink }
 
 /* contact icons */
 .menu-dark.flyout-menu .fly-out-social-icons a i { color:#fff }
@@ -386,16 +386,16 @@ a[href^=tel] { text-decoration: none; color: #fff }
 /* cta button */
 .menu-transparent ul li a.btn-cta:link,
 .menu-transparent ul li a.btn-cta:visited { 
-    background-color: #d1274b;
+    background-color: pink;
     color: #fff;
-    border-color:#d1274b;
+    border-color: pink;
 }
 
 .menu-transparent ul li a.btn-cta:hover,
 .menu-transparent ul li a.btn-cta:active { 
     background-color: #fff;
-    color: #d1274b;
-    border-color:#d1274b
+    color: pink;
+    border-color: pink
 }
 
 /* on mobiles only - various content */
@@ -422,11 +422,11 @@ a[href^=tel] { text-decoration: none; color: #fff }
 
 .menu-transparent.flyout-menu h5 a:hover, 
 .menu-transparent.flyout-menu h5 a:active {
-    border-bottom-color: #d1274b;
+    border-bottom-color: pink;
 }
 
 /* profile image border colour */
-.menu-transparent.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: #d1274b }
+.menu-transparent.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: pink }
 
 /* contact icons */
 .menu-transparent.flyout-menu .fly-out-social-icons a i { color:#fff }
@@ -623,7 +623,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 .container-form-email-signup h3 { 
 	font-family: 'Neucha', sans-serif;
 	font-weight: bold; 
-	color: #733fc0;
+	color: #222;
 	line-height: 1.2;
 	margin-bottom: 3%;
 	font-size: calc(32px + (84 - 32) * ((100vw - 320px) / (1600 - 320))); 
@@ -633,7 +633,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 .container-form-email-signup p { 
 	font-family: 'Neucha', sans-serif;
     font-weight: normal;
-    color: #733fc0; 
+    color: #222; 
 	line-height: 1.5;
     margin-bottom: 7%;    
 	font-size: calc(20px + (32 - 20) * ((100vw - 320px) / (1600 - 320))); 
@@ -681,7 +681,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 #email-signup-form input {
 	background-color: #f0f0f0;
 	padding: 10px 12px;
-	border: 2px solid #d1274b;
+	border: 2px solid pink;
 }
 
 #email-signup-form input:focus { 
@@ -692,12 +692,12 @@ a[href^=tel] { text-decoration: none; color: #fff }
 	color:#fff;
     border: none; 
 	padding: 12px 22px;    
-	background-color: #d1274b;
+	background-color: pink;
 	border-radius: 50px;
 }
 
 #email-signup-form #btn-submit:hover {
-	background-color: #733fc0;
+	background-color: #222;
 }
 
 #email-signup-form #btn-submit i {
