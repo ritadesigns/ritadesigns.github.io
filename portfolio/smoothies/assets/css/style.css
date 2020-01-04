@@ -712,6 +712,11 @@ a[href^=tel] { text-decoration: none; color: #fff }
 }
 
 
+
+
+
+
+
 /* == Begin footer CSS == */
 
 /* Outer footer parent container */
@@ -719,7 +724,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	background-color:#d1274b
+	background-color: pink
 }
 
 /* Desktop footer - inside padding  */
