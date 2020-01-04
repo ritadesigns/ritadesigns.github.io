@@ -49,30 +49,40 @@
 	
 	<body>
 
-
+	<!-- Desktop Container -->
 	<div class="container-menu-desktop menu-desktop-transparent menu-desktop-sticky">
 
 		<div class= "item-logo">
-		<p><a href= "#">smooth smoothies</a></p>
+		<p><a href= "#">Smooth Smoothies</a></p>
 		</div>
 
 		<div class="item-menu-options">
 			<ul>
-				<li><a href="">watermelon</a></li>
+				<li><a href="">Watermelon</a></li>
 				<li><a href="">Apple</a></li>
 				<li><a href="">Blueberry</a></li>
-				<li><a href="">lemon</a></li>
-				<li><a href="" class="btn">store</a></li>
+				<li><a href="">Lemon</a></li>
+				<li><a href="" class="btn">Store</a></li>
 			</ul>
+		</div>
+	</div>
+
+	<!-- Smooth Smoothies Mobile Menu -->
+	<div class="container-menu-bar-mobile menu-transparent menu-sticky">
+		<!-- first child -->
+		<p><a href= "#">Smooth Smoothies</a></p>
+		<!-- second child -->
+		<div class="item-icon">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
 		</div>
 	</div>
 
 	<div class="hero-block-5">
 		<h1>Smooth Smoothies</h1>
 		<h2>Where flavour meets goodness</h2>
-	</div>
-
-	
+	</div>	
 
 	<div class="container-flexbox">
 		<div class="item-1">
@@ -135,9 +145,6 @@
 	</div>
 
 </div>
-
-
-</BODY>
 	
 	
 	
@@ -196,6 +203,49 @@
 		}
 	});
 
+	// Code to detect click of option within fly-out menu
+	let specifiedElement = document.querySelector('.flyout-menu');
+
+	document.addEventListener('click', function(event) {
+		var isClickInside = specifiedElement.contains(event.target);
+		//If link is within current web page
+		if (isClickInside) {
+			//Close fly-out menu
+			toggleMobileMenu();
+		}
+		else {
+			return;
+		}
+	});
+
+	// Code to show/hide fly-out mobile menu -->
+	document.querySelector('.item-icon').addEventListener('click', toggleMobileMenu);
+	const pageContainer = document.querySelector('.page-container');
+
+	function toggleMobileMenu() {
+		//toggle hamburger icon
+		const elemIcon = document.querySelector('.item-icon');
+		elemIcon.classList.toggle("change");
+		const elemHTML = document.querySelector('html');
+		const elemBody = document.querySelector('body');            
+		const elemFlyOut = document.querySelector('.flyout-menu');
+
+		//if fly-out menu is currently closed, open it.
+		if (elemIcon.classList.contains('change')) {
+			elemFlyOut.classList.remove('flyout-menu-is-closed');
+			elemFlyOut.classList.add('flyout-menu-is-open');
+			elemHTML.classList.add('no-scroll');
+			elemBody.classList.add('no-scroll');
+		}    
+		//if fly-out menu is currently open, close it.
+		else {
+			elemFlyOut.classList.remove('flyout-menu-is-open');
+			elemFlyOut.classList.add('flyout-menu-is-closed');
+			elemHTML.classList.remove('no-scroll');
+			elemBody.classList.remove('no-scroll');                                
+		}
+	}
+
 	// Code for menus with transparent background
 	window.onscroll = function() {swapMenuStyle()};
 
@@ -220,6 +270,5 @@
 		}
 	}
 	</script>
-
-</body>
+	</body>
 </html>
