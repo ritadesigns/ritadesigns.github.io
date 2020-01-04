@@ -9,7 +9,7 @@ body { padding-top: 72px }
 /* ==== FONT AND COLOUR ==== */
 body { 
     font-family: 'Montserrat', sans-serif;
-    color: #500294;
+    color: #F77BB6;
 }
 
 /* Begin menu styles */
@@ -262,44 +262,44 @@ body {
 }
 
 /* menu links */
-.menu-light ul li a:link,  .menu-light ul li a:visited { color: #500294 }
+.menu-light ul li a:link,  .menu-light ul li a:visited { color: #F77BB6 }
 .menu-light ul li a:hover, .menu-light ul li a:active  { color: #222 }
 
 /* cta button */
 .menu-light ul li a.btn-cta:link, 
 .menu-light ul li a.btn-cta:visited {
     background-color: transparent;
-    color: #500294;
-    border-color:#500294
+    color: #F77BB6;
+    border-color: #F77BB6
 }
 
 .menu-light ul li a.btn-cta:hover,
 .menu-light ul li a.btn-cta:active {
-    background-color: #500294;
+    background-color: #F77BB6;
     color: #fff;
-    border-color:#500294
+    border-color: #F77BB6
 }
 
 /* on mobiles only */
-.menu-light.flyout-menu hr { background-color: #500294; border-color: #500294 } 
+.menu-light.flyout-menu hr { background-color: #F77BB6; border-color: #F77BB6 } 
 
 .menu-light.flyout-menu h4,
 .menu-light.flyout-menu h5,
 .menu-light.flyout-menu h5 a, 
-.menu-light.flyout-menu p { color: #500294 } 
+.menu-light.flyout-menu p { color: #F77BB6 } 
 
 /* colour of hamburger icon bars */
 .menu-light .item-icon .bar1, 
 .menu-light .item-icon .bar2, 
-.menu-light .item-icon .bar3 { background-color: #500294 }	
+.menu-light .item-icon .bar3 { background-color: #F77BB6 }	
 
 /* phone number link */
-a[href^=tel] { text-decoration: none; color: #500294 }
+a[href^=tel] { text-decoration: none; color: #F77BB6 }
 
 /* email link */
 .menu-light.flyout-menu h5 a:link, 
 .menu-light.flyout-menu h5 a:visited {
-    border-bottom-color:#500294;
+    border-bottom-color: #F77BB6;
 }
 
 .menu-light.flyout-menu h5 a:hover, 
@@ -308,10 +308,10 @@ a[href^=tel] { text-decoration: none; color: #500294 }
 }
 
 /* profile image border colour */
-.menu-light.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: #500294 }
+.menu-light.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: #F77BB6 }
 
 /* contact icons */
-.menu-light.flyout-menu .fly-out-social-icons a i { color:#500294 }
+.menu-light.flyout-menu .fly-out-social-icons a i { color: #F77BB6 }
 
 /* === End light background menu === */
 
@@ -319,7 +319,7 @@ a[href^=tel] { text-decoration: none; color: #500294 }
 
 /* background colour */
 .menu-dark { 
-	background-color: #500294; 
+	background-color: #F77BB6; 
 	transition: all .5s ease-in-out
 }
 
@@ -330,7 +330,7 @@ a[href^=tel] { text-decoration: none; color: #500294 }
 /* cta button */
 .menu-dark ul li a.btn-cta:link,
 .menu-dark ul li a.btn-cta:visited { 
-    background-color: #500294;
+    background-color: #F77BB6;
     color: #fff;
     border-color:#fff
 }
@@ -338,7 +338,7 @@ a[href^=tel] { text-decoration: none; color: #500294 }
 .menu-dark ul li a.btn-cta:hover,
 .menu-dark ul li a.btn-cta:active { 
     background-color: #fff;
-    color: #500294;
+    color: #F77BB6;
     border-color:#fff
 }
 
@@ -366,11 +366,11 @@ a[href^=tel] { text-decoration: none; color: #fff }
 
 .menu-dark.flyout-menu h5 a:hover, 
 .menu-dark.flyout-menu h5 a:active {
-    border-bottom-color: #500294;
+    border-bottom-color: #F77BB6;
 }
 
 /* profile image border colour */
-.menu-dark.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: #500294 }
+.menu-dark.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: #F77BB6 }
 
 /* contact icons */
 .menu-dark.flyout-menu .fly-out-social-icons a i { color:#fff }
@@ -394,16 +394,16 @@ a[href^=tel] { text-decoration: none; color: #fff }
 /* cta button */
 .menu-transparent ul li a.btn-cta:link,
 .menu-transparent ul li a.btn-cta:visited { 
-    background-color: #500294;
+    background-color: #F77BB6;
     color: #fff;
-    border-color:#500294;
+    border-color: #F77BB6;
 }
 
 .menu-transparent ul li a.btn-cta:hover,
 .menu-transparent ul li a.btn-cta:active { 
     background-color: #fff;
-    color: #500294;
-    border-color:#500294
+    color: #F77BB6;
+    border-color: #F77BB6
 }
 
 /* on mobiles only - various content */
@@ -417,7 +417,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 /* colour of hamburger icon bars */
 .menu-transparent .item-icon .bar1, 
 .menu-transparent .item-icon .bar2, 
-.menu-transparent .item-icon .bar3 { background-color: #500294 }
+.menu-transparent .item-icon .bar3 { background-color: #F77BB6 }
 
 /* phone number link */
 a[href^=tel] { text-decoration: none; color: #fff }
@@ -430,11 +430,11 @@ a[href^=tel] { text-decoration: none; color: #fff }
 
 .menu-transparent.flyout-menu h5 a:hover, 
 .menu-transparent.flyout-menu h5 a:active {
-    border-bottom-color: #500294;
+    border-bottom-color: #F77BB6;
 }
 
 /* profile image border colour */
-.menu-transparent.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: #500294 }
+.menu-transparent.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: #F77BB6 }
 
 /* contact icons */
 .menu-transparent.flyout-menu .fly-out-social-icons a i { color:#fff }
@@ -618,12 +618,12 @@ img.image-shadow { box-shadow: 8px 10px 8px #888 }
 
 .container-flexbox .item-1 p a.fancy-link:link, 
 .container-flexbox .item-1 p a.fancy-link:visited {
-	color:#500294; 
+	color: #F77BB6; 
 }
 
 .container-flexbox .item-1 p a.fancy-link:hover, 
 .container-flexbox .item-1 p a.fancy-link:active {
-	color:#FF3366;
+	color: #FF3366;
 }
 
 
@@ -726,7 +726,7 @@ img.image-shadow { box-shadow: 8px 10px 8px #888 }
 /* Heading */
 .container-contact-form h3 { 
 	font-weight: bold; 
-	color: #500294;
+	color: #F77BB6;
 	line-height: 1.2;
 	margin-bottom: 3%;
 	font-size: calc(30px + (64 - 30) * ((100vw - 320px) / (1600 - 320))); 
@@ -787,7 +787,7 @@ img.image-shadow { box-shadow: 8px 10px 8px #888 }
 
 #contact-form input, #contact-form textarea {
 	padding: 10px 12px;
-	border: 2px solid #500294;
+	border: 2px solid #F77BB6;
 	background-color: #d7edff;
 	border-radius: 5px;
 }
@@ -803,7 +803,7 @@ img.image-shadow { box-shadow: 8px 10px 8px #888 }
 	float: right; 
 	color: #fff;
 	border: none; 
-	background-color: #500294;
+	background-color: #F77BB6;
 	font-weight: bold;
 	padding: 12px 22px;
 	font-size: 96%;
