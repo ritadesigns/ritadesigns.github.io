@@ -252,7 +252,7 @@ body {
 
 /* background colour */
 .menu-light { 
-	background-color: #F77BB6;
+	background-color: #fff;
 	transition: all .5s ease-in-out;
 }
 
@@ -276,7 +276,7 @@ body {
 .menu-light ul li a.btn-cta:hover,
 .menu-light ul li a.btn-cta:active {
     background-color: #F77BB6;
-    color: #fff;
+    color: #222;
     border-color: #F77BB6
 }
 
