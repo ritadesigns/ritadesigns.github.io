@@ -324,7 +324,7 @@ a[href^=tel] { text-decoration: none; color: #F77BB6 }
 }
 
 /* menu links */
-.menu-dark ul li a:link,  .menu-dark ul li a:visited { color: #fff }
+.menu-dark ul li a:link,  .menu-dark ul li a:visited { color: #222 }
 .menu-dark ul li a:hover, .menu-dark ul li a:active  { color: #b8b8b8 }
 
 /* cta button */
@@ -348,7 +348,7 @@ a[href^=tel] { text-decoration: none; color: #F77BB6 }
 .menu-dark.flyout-menu h4,
 .menu-dark.flyout-menu h5,
 .menu-dark.flyout-menu h5 a,
-.menu-dark.flyout-menu p { color:#fff } 
+.menu-dark.flyout-menu p { color: #fff } 
 
 /* colour of hamburger icon bars */
 .menu-dark .item-icon .bar1, 
