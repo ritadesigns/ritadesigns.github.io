@@ -276,7 +276,7 @@ body {
 .menu-light ul li a.btn-cta:hover,
 .menu-light ul li a.btn-cta:active {
     background-color: #F77BB6;
-    color: #fff;
+    color: #222;
     border-color: #F77BB6
 }
 
@@ -567,7 +567,7 @@ img.image-shadow { box-shadow: 8px 10px 8px #888 }
 }
 
 .container-flexbox.hero-block hr {
-    background-color: #FF3366;
+    background-color: #F77BB6;
     border: none;
     height: 10px;
     width: 40%;
@@ -612,7 +612,7 @@ img.image-shadow { box-shadow: 8px 10px 8px #888 }
     text-decoration: none;
     border-bottom-style: solid;
     border-bottom-width: 3px;
-    border-bottom-color: #FF3366;
+    border-bottom-color: #F77BB6;
     padding-bottom: 2px;
 }
 
@@ -623,7 +623,7 @@ img.image-shadow { box-shadow: 8px 10px 8px #888 }
 
 .container-flexbox .item-1 p a.fancy-link:hover, 
 .container-flexbox .item-1 p a.fancy-link:active {
-	color: #FF3366;
+	color: #F77BB6;
 }
 
 
@@ -788,7 +788,7 @@ img.image-shadow { box-shadow: 8px 10px 8px #888 }
 #contact-form input, #contact-form textarea {
 	padding: 10px 12px;
 	border: 2px solid #F77BB6;
-	background-color: #d7edff;
+	background-color: #fff;
 	border-radius: 5px;
 }
 
