@@ -290,7 +290,7 @@ p, li { color: #403d50 }
 
 .menu-light ul li a.btn-cta:hover,
 .menu-light ul li a.btn-cta:active {
-    border-color: #fff;
+    border-color: #F77BB6;
     background-color: #F77BB6;
     color: #fff
 }
@@ -307,7 +307,7 @@ p, li { color: #403d50 }
 /* colour of hamburger icon bars */
 .menu-light .item-icon .bar1, 
 .menu-light .item-icon .bar2, 
-.menu-light .item-icon .bar3 { background-color:#403d50 }	
+.menu-light .item-icon .bar3 { background-color: #F77BB6 }	
 
 /* phone number link */
 a[href^=tel] { text-decoration: none; color: pink }
@@ -327,7 +327,7 @@ a[href^=tel] { text-decoration: none; color: pink }
 .menu-light.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: pink }
 
 /* contact icons */
-.menu-light.flyout-menu .fly-out-social-icons a i { color: pink }
+.menu-light.flyout-menu .fly-out-social-icons a i { color: #F77BB6 }
 
 /* === End light background menu === */
 
