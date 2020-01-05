@@ -9,7 +9,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 72px }
 body { font-family: 'Rubik', sans-serif }
 h1, h2, h3 { color: #222 }
 p, li { color: #403d50 }
-.bg-pastel-green { background-color: rgb(227,250,245) }
+.bg-pastel-green { background-color: #fef1ef }
 .bg-pastel-grey { background-color: #edf5f1 }
 
 
@@ -276,15 +276,15 @@ p, li { color: #403d50 }
 
 .menu-light ul li a { font-weight: 500 } 
 .menu-light ul li a:link,  .menu-light ul li a:visited { color: #403d50 }
-.menu-light ul li a:hover, .menu-light ul li a:active  { color: rgb(49,145,131) }
+.menu-light ul li a:hover, .menu-light ul li a:active  { color: #fef1ef }
 
 /* cta button */
 
 .menu-light ul li a.btn-cta { font-weight: 500 }
 .menu-light ul li a.btn-cta:link, 
 .menu-light ul li a.btn-cta:visited {
-    border-color: rgb(80,227,194);
-    background-color: rgb(80,227,194);
+    border-color: #fef1ef;
+    background-color: #fef1ef;
     color: #000;
 }
 
@@ -296,8 +296,8 @@ p, li { color: #403d50 }
 }
 
 /* on mobiles only */
-.flyout-menu.menu-light { background-color: rgb(227,250,245) }
-.menu-light.flyout-menu hr { background-color:rgb(80,227,194); border-color: rgb(80,227,194) } 
+.flyout-menu.menu-light { background-color: #fef1ef }
+.menu-light.flyout-menu hr { background-color: pink; border-color: pink } 
 
 .menu-light.flyout-menu h4,
 .menu-light.flyout-menu h5,
@@ -315,7 +315,7 @@ a[href^=tel] { text-decoration: none; color: red }
 /* email link */
 .menu-light.flyout-menu h5 a:link, 
 .menu-light.flyout-menu h5 a:visited {
-    border-bottom-color: rgb(80,227,194);
+    border-bottom-color: pink;
 }
 
 .menu-light.flyout-menu h5 a:hover, 
@@ -324,10 +324,10 @@ a[href^=tel] { text-decoration: none; color: red }
 }
 
 /* profile image border colour */
-.menu-light.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: rgb(80,227,194) }
+.menu-light.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: pink }
 
 /* contact icons */
-.menu-light.flyout-menu .fly-out-social-icons a i { color: rgb(80,227,194) }
+.menu-light.flyout-menu .fly-out-social-icons a i { color: pink }
 
 /* === End light background menu === */
 
