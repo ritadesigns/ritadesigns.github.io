@@ -276,22 +276,22 @@ p, li { color: #403d50 }
 
 .menu-light ul li a { font-weight: 500 } 
 .menu-light ul li a:link,  .menu-light ul li a:visited { color: #403d50 }
-.menu-light ul li a:hover, .menu-light ul li a:active  { color: #fef1ef }
+.menu-light ul li a:hover, .menu-light ul li a:active  { color: pink }
 
 /* cta button */
 
 .menu-light ul li a.btn-cta { font-weight: 500 }
 .menu-light ul li a.btn-cta:link, 
 .menu-light ul li a.btn-cta:visited {
-    border-color: #fef1ef;
-    background-color: #fef1ef;
+    border-color: pink;
+    background-color: pink;
     color: #000;
 }
 
 .menu-light ul li a.btn-cta:hover,
 .menu-light ul li a.btn-cta:active {
-    border-color: #403d50;
-    background-color: #403d50;
+    border-color: #F77BB6;
+    background-color: #F77BB6;
     color: #fff
 }
 
@@ -307,10 +307,10 @@ p, li { color: #403d50 }
 /* colour of hamburger icon bars */
 .menu-light .item-icon .bar1, 
 .menu-light .item-icon .bar2, 
-.menu-light .item-icon .bar3 { background-color:#403d50 }	
+.menu-light .item-icon .bar3 { background-color: #F77BB6 }	
 
 /* phone number link */
-a[href^=tel] { text-decoration: none; color: red }
+a[href^=tel] { text-decoration: none; color: pink }
 
 /* email link */
 .menu-light.flyout-menu h5 a:link, 
@@ -327,7 +327,7 @@ a[href^=tel] { text-decoration: none; color: red }
 .menu-light.flyout-menu.flyout-menu-is-open div.fly-out-profile-box img { border-color: pink }
 
 /* contact icons */
-.menu-light.flyout-menu .fly-out-social-icons a i { color: pink }
+.menu-light.flyout-menu .fly-out-social-icons a i { color: #F77BB6 }
 
 /* === End light background menu === */
 
@@ -440,8 +440,8 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 }
  
 a.button-solid:link, .button-solid:visited {
-    border-color: rgb(80,227,194);
-    background-color: rgb(80,227,194);
+    border-color: #F77BB6;
+    background-color: #F77BB6;
     color: #000;
 } 
  
@@ -483,9 +483,9 @@ a.fancy-link:hover, a.fancy-link:active {
     padding-bottom: 2px;
 }
 
-a.fancy-link:link, a.fancy-link:visited { color: rgb(49,145,131); border-bottom-color:rgb(49,145,131) }
+a.fancy-link:link, a.fancy-link:visited { color: #F77BB6; border-bottom-color: #F77BB6 }
 
-a.fancy-link:hover, a.fancy-link:active { color: rgb(36,64,84); border-bottom-color: rgb(36,64,84) }
+a.fancy-link:hover, a.fancy-link:active { color: #F77BB6 ; border-bottom-color: #F77BB6 }
 
 
 /* ============== FLEXBOX MULTI-COLUMN LAYOUTS ================== */
@@ -736,7 +736,7 @@ img.image-circle {
 #contact-form #btn-submit { 
 	float: right; 
 	border: none; 
-    background-color: rgb(80,227,194);
+    background-color: #F77BB6 ;
     color: #000;
 	font-weight: bold;
     padding: 18px 28px;
