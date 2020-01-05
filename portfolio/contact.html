@@ -163,62 +163,47 @@
     </div>
     <!-- End container for contact form -->
 
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
 
-    <!-- Begin HTML footer -->
-    
+
+	<!-- Begin HTML footer -->
 	<div class="container-footer">
-
-        <h4>Mary Smith, web designer</h4>
-        <h5>Excellence in digital creation</h5>
-
-        <ul class="footer-links">
-            <li><a href="../index-1.html">Home</a></li>
-            <li><a href="../portfolio/index-1.html">Portfolio</a></li>
-            <li><a href="index-1.html">Contact</a></li>
-        </ul>
-        
-        <ul class="footer-icons">
-            <li>
-                <a href="https://ie.linkedin.com/school/ibat-college-dublin/" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </li>
-
-            <li>
-                <a href="https://ie.linkedin.com/school/ibat-college-dublin/" target="_blank">
-                    <i class="fab fa-facebook"></i>
-                </a>
-            </li>
-
-            <li>
-                <a href="https://ie.linkedin.com/school/ibat-college-dublin/" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
-            </li>
-
-            <li>
-                <a href="https://ie.linkedin.com/school/ibat-college-dublin/" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </li>
-
-            <li>
-                <a href="https://www.instagram.com/ibatcollegedublin/" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </li>
-            
-         </ul>                
-        
-        <a class="privacy-legal" href="privacy-1.html">Privacy & Legal</a>
-    </div>
+		<div class="item-3">
+			<h4>Site Map</h4>
+			<p><i class="fas fa-home fa-fw"></i><a href="../../../index.html">Home</a></p>
+			<p><i class="fas fa-file-alt fa-fw"></i><a href="../../index.html">Portfolio</a></p>
+			<p><i class="fas fa-lock fa-fw"></i><a href="../../../privacy.html">Privacy</a></p>
+		
+		</div>
+		<div class="item-3">
+			<h4>About Me</h4>
+			<p>Hi, I'm Rita Brereton. I'm a graphic and web designer.</p>
+			
+			<p>I created this sample web page to showcase some of my digital creation skills.</p>
+		</div>
+		<div class="item-3">
+			<h4>Contact</h4>
+			<p><i class="fas fa-envelope fa-fw"></i><a href="mailto:breretonrita2@gmail.com">Email</a></p>
+			<p><i class="fab fa-github-square fa-fw"></i><a href="https://github.com/ritadesigns/ritadesigns.github.io" target="_blank">GitHub</a></p>
+			<p><i class="fab fa-linkedin fa-fw"></i><a href="https://www.linkedin.com/in/rita-brereton-71368083/" target="_blank">Linkedin</a></p>
+		</div>
+		
+	</div>
 	
 	<!-- End HTML footer -->
-
-
+	
+	
+	
 	<!-- Begin JavaScript code for desktop and mobile menus -->
     <script>
-
         // Code to detect click of option within fly-out menu
         let specifiedElement = document.querySelector('.flyout-menu');
         document.addEventListener('click', function(event) {
@@ -237,7 +222,6 @@
                 return;
             }
         });
-
 	    // Code to show/hide fly-out mobile menu -->
         document.querySelector('.item-icon').addEventListener('click', toggleMobileMenu)
         const pageContainer = document.querySelector('.page-container');
@@ -249,7 +233,6 @@
             const elemHTML = document.querySelector('html');
             const elemBody = document.querySelector('body');            
             const elemFlyOut = document.querySelector('.flyout-menu');
-
             //if fly-out menu is currently closed, open it.
             if (elemIcon.classList.contains('change')) {
                 elemFlyOut.classList.remove('flyout-menu-is-closed');
@@ -265,34 +248,21 @@
                 elemBody.classList.remove('no-scroll');                                
             }
         }
-
 		// Code for menus with transparent background
-		// window.onscroll = function() {swapMenuStyle()};
+		window.onscroll = function() {swapMenuStyle()};
 		const headerDesktop = document.querySelector('.container-menu-desktop');
 		const headerMobile = document.querySelector('.container-menu-bar-mobile');
-
 		const stickyDesktop = headerDesktop.offsetTop +300;
 		const stickyMobile = headerDesktop.offsetTop  +300;
-
 		function swapMenuStyle() {
 			if (window.pageYOffset > stickyDesktop) {
-				headerDesktop.classList.add("menu-light","menu-drop-shadow");
-				headerDesktop.classList.remove("menu-transparent");
-				headerMobile.classList.add("menu-light","menu-drop-shadow");
-				headerMobile.classList.remove("menu-transparent");
-
+				headerDesktop.classList.add("menu-drop-shadow");
 			} else {
-				headerDesktop.classList.add("menu-transparent");
-				headerDesktop.classList.remove("menu-light","menu-drop-shadow");
-				headerMobile.classList.add("menu-transparent");
-				headerMobile.classList.remove("menu-light","menu-drop-shadow");
+				headerDesktop.classList.remove("menu-drop-shadow");
 			}
 		}
-
 	</script>
 	<!-- End JavaScript code for desktop and mobile menus -->
-
-
     <!-- JavaScript for Cookie Consent Popup Message -->
 	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 	<script>
@@ -309,3 +279,6 @@
 			"href": "https://ibat-web-dev.github.io/privacy.html"
 		}
 	});
+    </script>
+    
+</body>
