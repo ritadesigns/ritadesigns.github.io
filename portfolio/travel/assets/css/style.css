@@ -655,7 +655,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 
 /* Background colors */
 .container-flexbox.bg-orange { background-color: #A287CA /* #e45724 */ }
-.container-flexbox.bg-light  { background-color: #eff8f5 /* #f0f0f0 */ }
+.container-flexbox.bg-light  { background-color: #fef1ef /* #f0f0f0 */ }
 
 /* ================ INNER FLEXBOX COLUMN CONTAINERS: 4 COLUMNS ON DESKTOPS, 2 COLUMNS ON MOBILES ============== */
 
@@ -727,7 +727,7 @@ a[href^=tel] { text-decoration: none; color: #fff }
 .container-flexbox .item-4-2 h3 { 
 	font-family: 'Roboto Slab', serif;
 	font-weight: 700; 
-	color: #d1274b;
+	color: #A287CA;
 	line-height: 1.2;
 	margin-bottom: 2px;
 	letter-spacing: 2px;
@@ -752,8 +752,8 @@ a[href^=tel] { text-decoration: none; color: #fff }
 .container-flexbox.bg-orange p { color: #fff }
 
 .container-flexbox.bg-light h2,
-.container-flexbox.bg-light h3 { color: #044d6c } 
-.container-flexbox.bg-light p { color: #044d6c }
+.container-flexbox.bg-light h3 { color: #a287ca } 
+.container-flexbox.bg-light p { color: #a287ca }
 
 
 .hero-block-5 h1, .hero-block-5 h2 {
