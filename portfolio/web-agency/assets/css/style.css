@@ -268,7 +268,7 @@ body {
 /* cta button */
 .menu-light ul li a.btn-cta:link, 
 .menu-light ul li a.btn-cta:visited {
-    background-color: transparent;
+    background-color: #222;
     color: #F77BB6;
     border-color: #F77BB6
 }
