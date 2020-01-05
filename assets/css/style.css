@@ -276,7 +276,7 @@ p, li { color: #403d50 }
 
 .menu-light ul li a { font-weight: 500 } 
 .menu-light ul li a:link,  .menu-light ul li a:visited { color: #403d50 }
-.menu-light ul li a:hover, .menu-light ul li a:active  { color: #fef1ef }
+.menu-light ul li a:hover, .menu-light ul li a:active  { color: pink }
 
 /* cta button */
 
