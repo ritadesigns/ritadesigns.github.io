@@ -290,8 +290,8 @@ p, li { color: #403d50 }
 
 .menu-light ul li a.btn-cta:hover,
 .menu-light ul li a.btn-cta:active {
-    border-color: #403d50;
-    background-color: #403d50;
+    border-color: #fff;
+    background-color: #fff;
     color: #fff
 }
 
