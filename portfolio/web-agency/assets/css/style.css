@@ -268,7 +268,7 @@ body {
 /* cta button */
 .menu-light ul li a.btn-cta:link, 
 .menu-light ul li a.btn-cta:visited {
-    background-color: #222;
+    background-color: transparent ;
     color: #F77BB6;
     border-color: #F77BB6
 }
@@ -304,7 +304,7 @@ a[href^=tel] { text-decoration: none; color: #F77BB6 }
 
 .menu-light.flyout-menu h5 a:hover, 
 .menu-light.flyout-menu h5 a:active {
-    border-bottom-color: #fff;
+    border-bottom-color: #222;
 }
 
 /* profile image border colour */
