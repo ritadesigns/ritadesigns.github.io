@@ -440,8 +440,8 @@ a.button:link, a.button:visited, a.button:hover, a.button:active {
 }
  
 a.button-solid:link, .button-solid:visited {
-    border-color: rgb(80,227,194);
-    background-color: rgb(80,227,194);
+    border-color: #F77BB6;
+    background-color: #F77BB6;
     color: #000;
 } 
  
@@ -483,9 +483,9 @@ a.fancy-link:hover, a.fancy-link:active {
     padding-bottom: 2px;
 }
 
-a.fancy-link:link, a.fancy-link:visited { color: rgb(49,145,131); border-bottom-color:rgb(49,145,131) }
+a.fancy-link:link, a.fancy-link:visited { color: #F77BB6; border-bottom-color: #F77BB6 }
 
-a.fancy-link:hover, a.fancy-link:active { color: rgb(36,64,84); border-bottom-color: rgb(36,64,84) }
+a.fancy-link:hover, a.fancy-link:active { color: #F77BB6 ; border-bottom-color: #F77BB6 }
 
 
 /* ============== FLEXBOX MULTI-COLUMN LAYOUTS ================== */
@@ -736,7 +736,7 @@ img.image-circle {
 #contact-form #btn-submit { 
 	float: right; 
 	border: none; 
-    background-color: rgb(80,227,194);
+    background-color: #F77BB6 ;
     color: #000;
 	font-weight: bold;
     padding: 18px 28px;
