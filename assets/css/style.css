@@ -284,7 +284,7 @@ p, li { color: #403d50 }
 .menu-light ul li a.btn-cta:link, 
 .menu-light ul li a.btn-cta:visited {
     border-color: #fef1ef;
-    background-color: #fef1ef;
+    background-color: pink;
     color: #000;
 }
 
@@ -310,7 +310,7 @@ p, li { color: #403d50 }
 .menu-light .item-icon .bar3 { background-color:#403d50 }	
 
 /* phone number link */
-a[href^=tel] { text-decoration: none; color: red }
+a[href^=tel] { text-decoration: none; color: pink }
 
 /* email link */
 .menu-light.flyout-menu h5 a:link, 
