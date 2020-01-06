@@ -721,8 +721,8 @@ img.image-circle {
 
 #contact-form input, #contact-form textarea {
 	padding: 10px 12px;
-	border: 2px solid rgb(49,145,131);
-	background-color: #f0f0f0;
+	border: 2px solid #F77BB6;
+	background-color: #fef1ef;
 	border-radius: 5px;
 }
 
