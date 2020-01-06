@@ -168,25 +168,20 @@
 	
 	
 	<!-- Begin HTML footer -->
-
 	<div class="container-footer">
-
 		<div class="item-3">
-
 			<h4>Site Map</h4>
 			<p><i class="fas fa-home fa-fw"></i><a href="../../../index.html">Home</a></p>
-			<p><i class="fas fa-file-alt fa-fw"></i><a href="../../index.html">Portfolio</a></p>
-			<p><i class="fas fa-lock fa-fw"></i><a href="../../../privacy.html">Privacy</a></p>
+			<p><i class="fas fa-file-alt fa-fw"></i><a href="https://ritadesigns.github.io/portfolio/index.html">Portfolio</a></p>
+			<p><i class="fas fa-lock fa-fw"></i><a href="https://ritadesigns.github.io/portfolio/privacy.html">Privacy</a></p>
 		
 		</div>
-
 		<div class="item-3">
 			<h4>About Me</h4>
 			<p>Hi, I'm Rita Brereton. I'm a graphic and web designer.</p>
 			
 			<p>I created this sample web page to showcase some of my digital creation skills.</p>
 		</div>
-
 		<div class="item-3">
 			<h4>Contact</h4>
 			<p><i class="fas fa-envelope fa-fw"></i><a href="mailto:breretonrita2@gmail.com">Email</a></p>
@@ -197,22 +192,19 @@
 	</div>
 	
 	<!-- End HTML footer -->
-
-	
-	
-	
-	
-	
-	
-	
 	<!-- Begin JavaScript code for desktop and mobile menus -->
     <script>
-	    // Code to detect click of option within fly-out menu
+        // Code to detect click of option within fly-out menu
         let specifiedElement = document.querySelector('.flyout-menu');
         document.addEventListener('click', function(event) {
             var isClickInside = specifiedElement.contains(event.target);
             //If link is within current web page
             if (isClickInside) {
+                //Get id of anchor
+                let anchor_id = window.location.hash;
+                //Add extra spacing above anchor
+                let elemAnchor = document.querySelector(anchor_id)
+                elemAnchor.classList.add('sticky-anchor');
                 //Close fly-out menu
                 toggleMobileMenu();
             }
@@ -254,21 +246,16 @@
 		const stickyMobile = headerDesktop.offsetTop  +300;
 		function swapMenuStyle() {
 			if (window.pageYOffset > stickyDesktop) {
-				headerDesktop.classList.add("menu-light","menu-drop-shadow");
-				headerDesktop.classList.remove("menu-transparent");
-				headerMobile.classList.add("menu-light","menu-drop-shadow");
-				headerMobile.classList.remove("menu-transparent");
+				headerDesktop.classList.add("menu-drop-shadow");
 			} else {
-				headerDesktop.classList.add("menu-transparent");
-				headerDesktop.classList.remove("menu-light","menu-drop-shadow");
-				headerMobile.classList.add("menu-transparent");
-				headerMobile.classList.remove("menu-light","menu-drop-shadow");
+				headerDesktop.classList.remove("menu-drop-shadow");
 			}
 		}
 	</script>
 	<!-- End JavaScript code for desktop and mobile menus -->
 	
-	<!-- JavaScript for Cookie Consent Popup Message -->
+	
+    <!-- JavaScript for Cookie Consent Popup Message -->
 	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 	<script>
 	window.cookieconsent.initialise({
@@ -281,10 +268,10 @@
 			}
 		},
 	  	"content": {
-			"href": "https://ibat-web-dev.github.io/privacy.html"
+			"href": "https://ritadesigns.github.io/portfolio/privacy.html"
 		}
 	});
-	</script>
-
+    </script>
+    
 </body>
 </html>
