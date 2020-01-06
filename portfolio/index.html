@@ -46,7 +46,7 @@
     <!-- Begin desktop menu -->
     <div class="container-menu-desktop menu-light menu-sticky">
         <!-- first child item -->
-        <a href="https://ritadesigns.github.io/"><img src="assets/img/website-logo.png" alt="website logo"></a>
+        <a href="https://ritadesigns.github.io"><img src="assets/img/website-logo.png" alt="website logo"></a>
         <!-- second child item -->
         <ul>
             <li><a href="https://ritadesigns.github.io">Home</a></li>
@@ -60,7 +60,7 @@
     <!-- Begin mobile menu bar -->
     <div class="container-menu-bar-mobile menu-light menu-sticky">
             <!-- first child -->
-            <a href="https://ritadesigns.github.io"><img src="assets/img/website-logo.png" alt="website logo"></a>
+            <a href="index-1.html"><img src="assets/img/website-logo.png" alt="website logo"></a>
             <!-- second child -->
             <div class="item-icon">
                 <div class="bar1"></div>
@@ -75,7 +75,7 @@
         <ul>
             <li><a href="https://ritadesigns.github.io"">Home</a></li>
             <li><a href="https://ritadesigns.github.io/portfolio/index.html">Portfolio</a></li>
-            <li><a href="https://ritadesigns.github.io/portfolio/contact.html.html" class="btn-cta">Contact &nbsp;<i class="fas fa-arrow-right"></i></a></li>
+            <li><a href="https://ritadesigns.github.io/portfolio/contact.html" class="btn-cta">Contact &nbsp;<i class="fas fa-arrow-right"></i></a></li>
         </ul>
         <hr>
         
@@ -137,7 +137,7 @@
                 <h2>My Recent Work</h2>
                 <p>Below you can see a selection of my graphic and web design development work.</p>
                 
-                <p>Have a project you'd like to discuss? <a href="contact/index-1.html" class="fancy-link">Let's make something great together!</a></p>
+                <p>Have a project you'd like to discuss? <a href="https://ritadesigns.github.io/portfolio/contact.html" class="fancy-link">Let's make something great together!</a></p>
             </div>
         </div><!-- End parent flexbox container -->
         
@@ -193,25 +193,20 @@
     
 	
 	<!-- Begin HTML footer -->
-
 	<div class="container-footer">
-
 		<div class="item-3">
-
 			<h4>Site Map</h4>
 			<p><i class="fas fa-home fa-fw"></i><a href="../../../index.html">Home</a></p>
 			<p><i class="fas fa-file-alt fa-fw"></i><a href="https://ritadesigns.github.io/portfolio/index.html">Portfolio</a></p>
-			<p><i class="fas fa-lock fa-fw"></i><a href="../../../privacy.html">Privacy</a></p>
+			<p><i class="fas fa-lock fa-fw"></i><a href="https://ritadesigns.github.io/portfolio/privacy.html">Privacy</a></p>
 		
 		</div>
-
 		<div class="item-3">
 			<h4>About Me</h4>
 			<p>Hi, I'm Rita Brereton. I'm a graphic and web designer.</p>
 			
 			<p>I created this sample web page to showcase some of my digital creation skills.</p>
 		</div>
-
 		<div class="item-3">
 			<h4>Contact</h4>
 			<p><i class="fas fa-envelope fa-fw"></i><a href="mailto:breretonrita2@gmail.com">Email</a></p>
@@ -222,14 +217,8 @@
 	</div>
 	
 	<!-- End HTML footer -->
-	
-	
-	
-
-
 	<!-- Begin JavaScript code for desktop and mobile menus -->
     <script>
-
         // Code to detect click of option within fly-out menu
         let specifiedElement = document.querySelector('.flyout-menu');
         document.addEventListener('click', function(event) {
@@ -248,7 +237,6 @@
                 return;
             }
         });
-
 	    // Code to show/hide fly-out mobile menu -->
         document.querySelector('.item-icon').addEventListener('click', toggleMobileMenu)
         const pageContainer = document.querySelector('.page-container');
@@ -260,7 +248,6 @@
             const elemHTML = document.querySelector('html');
             const elemBody = document.querySelector('body');            
             const elemFlyOut = document.querySelector('.flyout-menu');
-
             //if fly-out menu is currently closed, open it.
             if (elemIcon.classList.contains('change')) {
                 elemFlyOut.classList.remove('flyout-menu-is-closed');
@@ -276,15 +263,12 @@
                 elemBody.classList.remove('no-scroll');                                
             }
         }
-
 		// Code for menus with transparent background
 		window.onscroll = function() {swapMenuStyle()};
 		const headerDesktop = document.querySelector('.container-menu-desktop');
 		const headerMobile = document.querySelector('.container-menu-bar-mobile');
-
 		const stickyDesktop = headerDesktop.offsetTop +300;
 		const stickyMobile = headerDesktop.offsetTop  +300;
-
 		function swapMenuStyle() {
 			if (window.pageYOffset > stickyDesktop) {
 				headerDesktop.classList.add("menu-drop-shadow");
@@ -292,11 +276,10 @@
 				headerDesktop.classList.remove("menu-drop-shadow");
 			}
 		}
-
 	</script>
 	<!-- End JavaScript code for desktop and mobile menus -->
-
-
+	
+	
     <!-- JavaScript for Cookie Consent Popup Message -->
 	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 	<script>
@@ -310,9 +293,10 @@
 			}
 		},
 	  	"content": {
-			"href": "https://ibat-web-dev.github.io/privacy.html"
+			"href": "https://ritadesigns.github.io/portfolio/privacy.html"
 		}
 	});
     </script>
     
 </body>
+</html>
