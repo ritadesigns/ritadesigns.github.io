@@ -315,7 +315,7 @@ a.fancy-link:active {
 }
 .important-note-3 {
     border-left-color: #def0f9;
-    background-color: #84d7f5;
+    background-color: #cffcfb;
   }
 .important-note-3 h3 { margin-top: 0 }
 
@@ -329,7 +329,7 @@ a.fancy-link:active {
     border-width: 3px;
     border-radius: 10px;
     border-color: #def0f9;
-    background-color: #84d7f5
+    background-color: #cffcfb
 }
 
 .important-note-4 h3 { margin-top: 0 }
