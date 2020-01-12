@@ -321,9 +321,9 @@ a.btn-round { border-radius: 25px }
    border-right-width: 0
 }
 
-.important-note-2 h3 { margin-top: 0; color: #84d7f5; }
+.important-note-2 h3 { margin-top: 0; color: #fff; }
 
-.important-note-2 p { margin-bottom: 0; color: #84d7f5;  }
+.important-note-2 p { margin-bottom: 0; color: #fff;  }
 
 .important-note-3 { 
    margin: 42px 0 42px 0;
