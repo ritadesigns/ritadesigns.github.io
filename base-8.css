@@ -316,14 +316,14 @@ a.btn-round { border-radius: 25px }
    border-top-width: 8px;
    border-bottom-width: 4px;
    border-top-color:#044E6C;
-   border-bottom-color:#044E6C;
+   border-bottom-color:#84d7f5;
    border-left-width: 0;
    border-right-width: 0
 }
 
-.important-note-2 h3 { margin-top: 0; color: #044E6C; }
+.important-note-2 h3 { margin-top: 0; color: #84d7f5; }
 
-.important-note-2 p { margin-bottom: 0; color: #044E6C;  }
+.important-note-2 p { margin-bottom: 0; color: #84d7f5;  }
 
 .important-note-3 { 
    margin: 42px 0 42px 0;
@@ -333,8 +333,7 @@ a.btn-round { border-radius: 25px }
    border-bottom-width: 0;
    border-left-width: 20px;
    border-left-color: #84d7f5;
-   border-right-width: 0;
-   background-color: #044E6C
+   border-right-width: #84d7f5
 }
 
 .important-note-3 h3 { margin-top: 0; }
