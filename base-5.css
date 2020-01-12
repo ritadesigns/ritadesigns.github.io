@@ -9,7 +9,7 @@ body {
 
     color: #4b4a45;
     background-color: #78d8da;
-    background-color: linear-gradient( #78d8da 0%, rgb(2, 114, 116));
+    background-image: linear-gradient( #78d8da 0%, rgb(2, 114, 116));
     background-image: linear-gradient(to right, #78d8da,#1199de);
     
 
