@@ -466,11 +466,58 @@ a.button-ghost:hover, .button-ghost:active {
 a.button-soft { border-radius: 5px }
 a.button-round { border-radius: 25px }
 
+
+
+
+/* Style buttons */
+.btn {
+    background-color:#F77BB6;
+    border: #F77BB6;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif; 
+    color: #2c3e50;
+    text-align: left;
+  }
+  
+.btn a {text-decoration: none;
+        color:#2c3e50;}
+
+.btn :hover {
+    background-color:#2c3e50;
+    border-color: #2c3e50;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* Hide button icons on narrow desktop sceens */
 @media all and (min-width:768px) and (max-width: 1024px) {
     .container-flexbox .item-3 a.button i { display: none}
 }
  
+
+
+
+
+
+
+
+
+
+
+
 
 /* ============== FANCY HYPERLINKS =================== */
 
